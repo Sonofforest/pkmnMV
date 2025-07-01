@@ -1,0 +1,614 @@
+﻿# Consulta la documentación en la wiki para aprender cómo editar este archivo.
+#-------------------------------
+[048] # Ruta 11
+Land,21
+    20,PIDGEY,3,5
+    20,WEEDLE,2,4
+    15,BUDEW,3,5
+    15,BUNNELBY,2,4
+    10,GRUBBIN,3,5
+#-------------------------------
+[076] # Ciudad Nova
+Land,20
+    20,PIDGEY,2,4
+    20,SUNKERN,2,4
+    15,FLABEBE,2,3
+    5,ELEKID,2,4
+#-------------------------------
+[077] # Ruta 2
+Land,21
+    20,BUNEARY,3,5
+    15,MORELULL,3,5
+    10,GRUBBIN,3,5
+    10,ROCKRUFF,3,5
+#-------------------------------
+[079] # Ruta 3
+Land,21
+    20,FLETCHLING,3,4
+    20,PIDGEY,3,5
+    15,ROCKRUFF,4,6
+    15,SHINX,4,6
+    8,EEVEE,3,5
+    5,RHYHORN,3,6
+#-------------------------------
+[081] # Ruta 1
+Land,21
+    20,BUNNELBY,4,5
+    20,GRUBBIN,2,5
+    20,WEEDLE,4,5
+    15,SHINX,3,5
+#-------------------------------
+[082] # Cueva Onix
+Cave,5
+    20,GEODUDE,4,6
+    20,ZUBAT,4,6
+    10,ZUBAT,5,7
+    5,MACHOP,5,8
+    5,ONIX,4,7
+#-------------------------------
+[083] # Cueva Onix
+Cave,5
+    20,GEODUDE,4,7
+    20,ZUBAT,4,7
+    15,ONIX,5,8
+    5,MACHOP,4,8
+#-------------------------------
+[084] # Ruta 4
+Land,21
+    20,BIDOOF,8,10
+    20,BONSLY,8,10
+    20,FLOETTE,9,11
+    12,SALANDIT,9,11
+    10,SPEWPA,9,11
+    8,HERACROSS,9,11
+#-------------------------------
+[086] # Ruta 5
+Land,21
+    20,BOUNSWEET,10,12
+    20,METAPOD,10,12
+    15,CRABRAWLER,11,13
+    15,SANDYGAST,11,13
+    10,KAKUNA,10,12
+    5,KOMALA,10,12
+    5,PIKIPEK,9,11
+#-------------------------------
+[087] # Costa Aquarina
+OldRod
+    20,MAGIKARP,11,14
+    10,WISHIWASHI,12,16
+Land,21
+    20,EXEGGCUTE,12,14
+    20,SANDYGAST,11,14
+    15,CRABRAWLER,11,14
+    15,CUTIEFLY,12,15
+    15,PYUKUMUKU,11,14
+    8,WIMPOD,11,14
+GoodRod
+    20,MAGIKARP,18,21
+    10,BUIZEL,19,24
+    10,CLOBBOPUS,17,23
+    10,WISHIWASHI,18,23
+SuperRod
+    20,TENTACOOL,35,40
+    20,TENTACRUEL,40,47
+    10,GYARADOS,35,40
+    10,WISHIWASHI,32,38
+Water,4
+    20,PELIPPER,35,43
+    20,WINGULL,28,37
+    15,FRILLISH,37,45
+    10,TENTACOOL,32,38
+#-------------------------------
+[109] # Ruta 6
+Land,21
+    40,BOUNSWEET,11,14
+    20,GROWLITHE,12,14
+    10,EXEGGCUTE,12,15
+    10,SPRITZEE,12,14
+    10,SWIRLIX,12,14
+    5,SLAKOTH,12,15
+    5,TROPIUS,12,14
+#-------------------------------
+[110] # Ruta 7
+Land,21
+    20,CUBCHOO,13,16
+    20,HATENNA,13,16
+    15,ESPURR,13,16
+    15,GOTHITA,13,16
+    10,IMPIDIMP,13,16
+    10,SKIDDO,13,16
+#-------------------------------
+[112] # Ruta 7
+Land,21
+    20,CUBCHOO,15,18
+    20,SKIDDO,14,18
+    10,MIENFOO,14,17
+    10,NICKIT,15,18
+    10,SPRITZEE,14,18
+    10,SWINUB,16,18
+    5,HATENNA,14,18
+    5,IMPIDIMP,14,17
+#-------------------------------
+[114] # Ruinas antiguas
+Land,21
+    20,GASTLY,15,18
+    20,KAKUNA,12,14
+    20,WOOPER,14,16
+    10,DRIFLOON,14,17
+    10,SWADLOON,15,17
+    10,WHIRLIPEDE,16,18
+    5,DUSKULL,15,17
+    5,ZORUA,15,18
+#-------------------------------
+[115] # Ruinas antiguas
+Land,21
+    20,GASTLY,15,18
+    20,KAKUNA,12,14
+    20,WOOPER,14,16
+    10,DRIFLOON,14,17
+    10,SWADLOON,15,17
+    10,WHIRLIPEDE,16,18
+    5,DUSKULL,15,17
+    5,ZORUA,15,18
+#-------------------------------
+[116] # Ruta 7
+Land,21
+    20,CUBCHOO,12,14
+    20,SNORUNT,14,18
+    10,MIENFOO,14,17
+    10,SKIDDO,16,18
+    10,SNEASEL,14,18
+    10,SPHEAL,14,17
+    10,SWINUB,14,18
+    5,ABSOL,14,18
+#-------------------------------
+[120] # Cueva steelix
+Cave,5
+    20,ARON,20,22
+    20,BERGMITE,20,22
+    20,ROGGENROLA,18,20
+    10,BOLDORE,20,22
+    10,GOLBAT,22,24
+    10,SNORUNT,20,22
+    10,ZUBAT,18,20
+#-------------------------------
+[123] # Cueva steelix piso -1A2
+Cave,5
+    20,BERGMITE,22,24
+    20,NOSEPASS,22,24
+    20,SNORUNT,23,25
+    10,ARON,18,22
+    10,BOLDORE,22,24
+    10,GOLBAT,22,24
+    10,LAIRON,22,24
+#-------------------------------
+[124] # CUEVA STEELIX PISO-2
+Cave,5
+    20,BERGMITE,22,24
+    20,NOSEPASS,22,24
+    20,SNORUNT,23,25
+    10,ARON,18,22
+    10,BOLDORE,22,24
+    10,SPHEAL,22,24
+    10,SWINUB,22,24
+#-------------------------------
+[125] # CUEVA STEELIX Piso-3
+Cave,5
+    20,BERGMITE,22,24
+    20,NOSEPASS,22,24
+    20,SNORUNT,23,25
+    20,SWINUB,22,24
+    10,ARON,18,22
+    10,SPHEAL,22,24
+#-------------------------------
+[126] # CUEVA STEELIX PISO-4
+Cave,5
+    20,BERGMITE,22,24
+    20,NOSEPASS,22,24
+    20,SNORUNT,23,25
+    10,ARON,18,22
+    10,SPHEAL,20,22
+    10,SWINUB,22,24
+    5,SEALEO,22,24
+#-------------------------------
+[128] # CUEVA STEELIX PISO -4/2
+Cave,5
+    20,BERGMITE,22,24
+    20,CRYOGONAL,20,24
+    20,SNORUNT,23,25
+    10,ARON,18,22
+    10,SPHEAL,20,22
+    10,SWINUB,22,24
+    5,SEALEO,22,24
+#-------------------------------
+[130] # Cueva steelix 
+Cave,5
+    20,GRAVELER,24,26
+    20,MACHOP,22,24
+    20,NOSEPASS,24,26
+    10,BOLDORE,24,26
+    10,LAIRON,22,26
+    10,ONIX,24,26
+    10,STEELIX,24,26
+#-------------------------------
+[132] # Camino arido
+Land,21
+    20,BALTOY,22,24
+    20,SANDILE,23,26
+    20,SANDSHREW,24,26
+    10,DWEBBLE,24,26
+    10,HIPPOPOTAS,24,28
+    10,MARACTUS,24,26
+    5,KROKOROK,24,28
+    5,TRAPINCH,22,28
+#-------------------------------
+[134] # Ruta 8
+Land,21
+    20,CUTIEFLY,19,24
+    20,LOTAD,18,20
+    20,SHELLOS,22,26
+    20,WOOPER,24,26
+    10,CROAGUNK,22,24
+    5,KIRLIA,19,24
+    5,LOMBRE,20,24
+#-------------------------------
+[138] # Cueva lleca
+Cave,5
+    20,BOLDORE,26,28
+    20,GOLBAT,23,26
+    20,SHELLOS,26,28
+    10,BALTOY,28,30
+    10,KROKOROK,28,30
+    10,MAKUHITA,25,28
+    5,GIBLE,28,32
+    5,TRAPINCH,28,30
+#-------------------------------
+[139] # Cueva lleca
+Cave,5
+    20,BOLDORE,26,28
+    20,GOLBAT,23,26
+    20,SHELLOS,26,28
+    10,BALTOY,28,30
+    10,KROKOROK,28,30
+    10,MAKUHITA,25,28
+    5,GIBLE,28,32
+    5,TRAPINCH,28,30
+#-------------------------------
+[148] # Ruta 10
+Land,21
+    20,GLIGAR,30,34
+    20,GRAVELER,28,32
+    20,PIDGEOTTO,28,33
+    20,SWABLU,28,34
+    10,DRIFLOON,28,34
+    5,BAGON,28,36
+    5,DRIFBLIM,30,35
+#-------------------------------
+[160] # Cordillera Steelix
+Land,21
+    20,CETODDLE,32,36
+    20,SNORUNT,33,37
+    10,AVALUGG,35,38
+    10,BEARTIC,30,34
+    10,DREEPY,32,36
+    10,FROSLASS,32,35
+    10,GLALIE,35,37
+    10,MACHOKE,33,37
+#-------------------------------
+[161] # Cordillera Steelix
+Land,21
+    20,CETODDLE,32,36
+    20,SNORUNT,33,37
+    10,AVALUGG,35,38
+    10,BEARTIC,30,34
+    10,DREEPY,32,36
+    10,FROSLASS,32,35
+    10,GLALIE,35,37
+    10,MACHOKE,33,37
+#-------------------------------
+[162] # Cordillera Steelix
+Land,21
+    20,BRONZOR,33,37
+    20,CETODDLE,32,36
+    10,AVALUGG,35,38
+    10,BEARTIC,30,34
+    10,DREEPY,32,36
+    10,FROSLASS,32,35
+    10,GLALIE,35,37
+    10,MACHOKE,33,37
+#-------------------------------
+[163] # Cordillera Steelix
+Land,21
+    20,BRONZOR,33,37
+    20,CETODDLE,32,36
+    10,AVALUGG,35,38
+    10,BEARTIC,30,34
+    10,DREEPY,32,36
+    10,FROSLASS,32,35
+    10,GLALIE,35,37
+    10,MACHOKE,33,37
+#-------------------------------
+[175] # Safari Zona-Desierto
+Land,21
+    20,NACLI,29,32
+    20,SILICOBRA,28,30
+    20,SKORUPI,28,32
+    10,DURANT,28,30
+    10,KLAWF,30,32
+    10,TOEDSCOOL,28,32
+    10,TORKOAL,28,32
+#-------------------------------
+[176] # Safari Zona-Montaña
+Land,21
+    40,PHANPY,28,32
+    20,CUFANT,28,32
+    10,DUNSPARCE,28,33
+    10,HEATMOR,27,29
+    10,RELLOR,28,32
+    5,KANGASKHAN,28,34
+    5,RUFFLET,28,32
+    5,VULLABY,28,32
+#-------------------------------
+[178] # Instalaciones Abandonadas
+Land,21
+    20,KOFFING,28,32
+    20,MAGNEMITE,28,30
+    20,MIMIKYU,30,33
+    20,TADBULB,28,32
+    10,HELIOPTILE,29,33
+    10,KLEFKI,28,32
+    10,MAGNETON,30,32
+#-------------------------------
+[179] # Laboratorio Abandonado
+Land,21
+    20,KOFFING,28,32
+    20,MAGNEMITE,28,30
+    20,MIMIKYU,30,33
+    20,TADBULB,28,32
+    10,HELIOPTILE,29,33
+    10,KLEFKI,28,32
+    10,MAGNETON,30,32
+#-------------------------------
+[181] # Safari Zona Bosque
+Land,21
+    20,AUDINO,28,30
+    20,CARNIVINE,28,32
+    10,BULBASAUR,5
+    10,DOLLIV,28,30
+    10,SEEDOT,25,28
+    10,SHROODLE,28,33
+    10,TANGELA,28,32
+    5,APPLIN,28,32
+#-------------------------------
+[185] # Desierto 
+Land,21
+    20,CACNEA,28,34
+    20,HIPPOPOTAS,28,32
+    20,SANDSHREW,28,34
+    10,GLIGAR,27,30
+    10,KROKOROK,25,28
+    10,MINIOR,28,34
+    5,LUNATONE,28,32
+    5,SOLROCK,28,32
+#-------------------------------
+[186] # Desierto
+Land,21
+    20,CACNEA,28,34
+    20,HIPPOPOTAS,28,32
+    20,SANDSHREW,28,34
+    10,GLIGAR,27,30
+    10,KROKOROK,25,28
+    10,MINIOR,28,34
+    5,LUNATONE,28,32
+    5,SOLROCK,28,32
+#-------------------------------
+[187] # Desierto
+Land,21
+    20,CACNEA,28,34
+    20,HIPPOPOTAS,28,32
+    20,SANDSHREW,28,34
+    10,GLIGAR,27,30
+    10,KROKOROK,25,28
+    10,MINIOR,28,34
+    5,LUNATONE,28,32
+    5,SOLROCK,28,32
+#-------------------------------
+[188] # Desierto
+Land,21
+    20,CACNEA,28,34
+    20,HIPPOPOTAS,28,32
+    20,SANDSHREW,28,34
+    10,GLIGAR,27,30
+    10,KROKOROK,25,28
+    10,MINIOR,28,34
+    5,LUNATONE,28,32
+    5,SOLROCK,28,32
+#-------------------------------
+[189] # Desierto
+Land,21
+    20,CACNEA,28,34
+    20,HIPPOPOTAS,28,32
+    20,SANDSHREW,28,34
+    10,GLIGAR,27,30
+    10,KROKOROK,25,28
+    10,MINIOR,28,34
+    5,LUNATONE,28,32
+    5,SOLROCK,28,32
+#-------------------------------
+[190] # Desierto
+Land,21
+    20,CACNEA,28,34
+    20,HIPPOPOTAS,28,32
+    20,SANDSHREW,28,34
+    10,GLIGAR,27,30
+    10,KROKOROK,25,28
+    10,MINIOR,28,34
+    5,LUNATONE,28,32
+    5,SOLROCK,28,32
+#-------------------------------
+[191] # Desierto
+Land,21
+    20,CACNEA,28,34
+    20,HIPPOPOTAS,28,32
+    20,SANDSHREW,28,34
+    10,GLIGAR,27,30
+    10,KROKOROK,25,28
+    10,MINIOR,28,34
+    5,LUNATONE,28,32
+    5,SOLROCK,28,32
+#-------------------------------
+[192] # Ruínas De la Cosecha
+Land,21
+    20,CACNEA,28,34
+    20,HIPPOPOTAS,28,32
+    20,SANDSHREW,28,34
+    10,GLIGAR,27,30
+    10,KROKOROK,25,28
+    10,MINIOR,28,34
+    5,LUNATONE,28,32
+    5,SOLROCK,28,32
+#-------------------------------
+[194] # Cueva Cosecha
+Cave,5
+    20,BOLDORE,30,32
+    20,SABLEYE,30,32
+    10,CLEFAIRY,28,30
+    10,DRATINI,28,32
+    10,DRILBUR,28,32
+    10,GOLBAT,30,32
+    5,DEINO,28,34
+#-------------------------------
+[195] # Cueva Cosecha
+Cave,5
+    20,BOLDORE,30,32
+    20,SABLEYE,30,32
+    10,CLEFAIRY,28,30
+    10,DRATINI,28,32
+    10,DRILBUR,28,32
+    10,GOLBAT,30,32
+    5,DEINO,28,34
+#-------------------------------
+[196] # Cueva Cosecha
+Cave,5
+    20,BOLDORE,30,32
+    20,SABLEYE,30,32
+    10,CLEFAIRY,28,30
+    10,DRATINI,28,32
+    10,DRILBUR,28,32
+    10,GOLBAT,30,32
+    5,DEINO,28,34
+#-------------------------------
+[200] # Cueva Onix
+Cave,5
+    20,GEODUDE,4,7
+    20,MACHOP,5,8
+    20,ZUBAT,4,7
+    15,ROGGENROLA,4,7
+    5,MAWILE,4,7
+    5,ONIX,5,8
+#-------------------------------
+[201] # Cueva Onix
+Cave,5
+    20,GEODUDE,4,7
+    20,MACHOP,5,8
+    20,ZUBAT,4,7
+    15,ROGGENROLA,4,7
+    5,MAWILE,4,7
+    5,ONIX,5,8
+#-------------------------------
+[203] # Cueva Onix
+Cave,5
+    20,ROGGENROLA,6,9
+    20,ZUBAT,7,9
+    10,MACHOP,6,9
+    10,ONIX,7,10
+    5,MAWILE,8,11
+#-------------------------------
+[204] # Cueva Onix
+Cave,5
+    20,GEODUDE,6,9
+    20,MACHOP,7,9
+    20,ZUBAT,6,9
+    15,ROGGENROLA,6,9
+    5,MAWILE,6,9
+    5,ONIX,7,10
+#-------------------------------
+[239] # Villa Epecuén
+Land,21
+    20,PHANTUMP,12,14
+    20,VENIPEDE,9,12
+    20,WEEDLE,11,14
+    10,GASTLY,12,14
+    10,GASTLY,11,14
+    10,WOOPER,12,14
+    5,KAKUNA,11,13
+    5,ZORUA,11,13
+#-------------------------------
+[241] # Ciudad Plata
+Land,21
+    20,KAKUNA,15,18
+    20,LILLIPUP,19,22
+    20,PIDGEY,19,22
+    20,SHINX,18,20
+    10,VULPIX,18,20
+#-------------------------------
+[242] # Ciudad Plata
+Land,21
+    20,FLOETTE,23,25
+    20,PINECO,23,26
+    20,RIBOMBEE,22,25
+    10,EEVEE,20,25
+    10,GROWLITHE,22,25
+    10,ROSELIA,23,25
+#-------------------------------
+[243] # Ciudad Plata
+Land,21
+    20,ELECTABUZZ,23,26
+    20,GRIMER,25,28
+    20,KLEFKI,23,25
+    10,PIDGEOT,23,25
+    10,PIKACHU,25,28
+    10,TOXEL,25,28
+    5,PINSIR,25,28
+#-------------------------------
+[246] # Ciudad Plata
+Land,21
+    20,LILLIPUP,25,28
+    15,ESPURR,25,27
+    15,TIMBURR,22,24
+    10,MANKEY,20,23
+    10,SEEDOT,22,25
+    5,ABRA,20,22
+    5,SOLOSIS,23,26
+    5,ZORUA,20,25
+#-------------------------------
+[249] # Ruta 9
+Land,21
+    20,MAREEP,26,28
+    20,MUDBRAY,28,30
+    10,ELECTRIKE,25,28
+    10,GLOOM,28,33
+    10,MIENFOO,28,32
+    10,SCYTHER,25,28
+    5,FOMANTIS,25,28
+#-------------------------------
+[250] # Ruta 9
+Land,21
+    20,MAREEP,26,28
+    20,MUDBRAY,28,30
+    10,ELECTRIKE,25,28
+    10,GLOOM,28,33
+    10,LICKITUNG,25,28
+    10,MIENFOO,28,32
+    10,SCYTHER,25,28
+    5,FOMANTIS,25,28
+#-------------------------------
+[252] # Ruta 13
+Land,21
+    20,LYCANROC,31,34
+    20,MACHOKE,32,35
+    20,SWABLU,30,35
+    10,FERROSEED,28,33
+    10,MAGMAR,30,36
+    10,SKARMORY,32,36
+    10,TYROGUE,30,33

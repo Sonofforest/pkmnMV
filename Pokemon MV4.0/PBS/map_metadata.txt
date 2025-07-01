@@ -1,0 +1,1385 @@
+﻿# Consulta la documentación en la wiki para aprender cómo editar este archivo.
+#-------------------------------
+[001]   # Intro
+Name = Intro
+#-------------------------------
+[002]   # pokeathlon hall
+Name = Pueblo Inicio
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,12
+BattleBack = field
+#-------------------------------
+[003]
+Name = Casa del jugador
+HealingSpot = 2,8,8
+MapPosition = 0,13,12
+#-------------------------------
+[004]
+Name = Laboratorio Pokémon
+MapPosition = 0,13,12
+#-------------------------------
+[005]
+Name = Ruta 1
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,11
+BattleBack = field
+#-------------------------------
+[006]
+Name = Casa de César
+MapPosition = 0,13,11
+#-------------------------------
+[007]
+Name = Ciudad Lugano
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,10
+MapSize = 2,11
+#-------------------------------
+[008]
+Name = Casa de Dalia
+MapPosition = 0,13,12
+#-------------------------------
+[009]
+Name = Centro Pokémon
+HealingSpot = 8,17,11
+MapPosition = 0,14,10
+#-------------------------------
+[010]
+Name = Gimnasio Lugano
+MapPosition = 0,13,10
+BattleBack = indoor3
+Environment = Rock
+Flags = DisableBoxLink
+#-------------------------------
+[011]
+Name = Instituto Pokémon
+MapPosition = 0,14,10
+#-------------------------------
+[012]
+Name = Condominio de Lugano
+MapPosition = 0,14,10
+#-------------------------------
+[013]
+Name = Casino
+MapPosition = 0,14,10
+#-------------------------------
+[014]
+Name = Lugano CC P1
+MapPosition = 0,13,10
+#-------------------------------
+[015]
+Name = Lugano CC P2
+MapPosition = 0,13,10
+#-------------------------------
+[016]
+Name = Lugano CC P3
+MapPosition = 0,13,10
+#-------------------------------
+[017]
+Name = Lugano CC P4
+MapPosition = 0,13,10
+#-------------------------------
+[018]
+Name = Lugano CC P5
+MapPosition = 0,13,10
+#-------------------------------
+[019]
+Name = Lugano CC Azotea
+MapPosition = 0,13,10
+#-------------------------------
+[020]
+Name = Lugano CC Ascensor
+MapPosition = 0,13,10
+#-------------------------------
+[021]
+Name = Ruta 2
+Outdoor = true
+ShowArea = true
+Weather = Rain,100
+MapPosition = 0,14,8
+BattleBack = field
+MapSize = 1,11
+#-------------------------------
+[023]
+Name = Pueblo Macabeo
+Outdoor = true
+ShowArea = true
+MapPosition = 0,15,8
+#-------------------------------
+[024]
+Name = Centro Pokémon Macabeo
+HealingSpot = 23,11,15
+MapPosition = 0,15,8
+#-------------------------------
+[025]
+Name = Tienda Pokémon
+MapPosition = 0,15,8
+#-------------------------------
+[026]
+Name = Club de Fans Pokémon
+MapPosition = 0,15,8
+#-------------------------------
+[027]
+Name = Guardería Pokémon
+MapPosition = 0,15,8
+#-------------------------------
+[028]
+Name = Parque Natural
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,8
+BattleBack = field
+Flags = MossRock,BugContest
+#-------------------------------
+[029]
+Name = Entrada Parque Natural
+Bicycle = true
+MapPosition = 0,16,8
+Flags = BugContestReception
+#-------------------------------
+[030]
+Name = Pabellón Parque Natural
+MapPosition = 0,16,8
+Flags = BugContestReception
+#-------------------------------
+[031]
+Name = Ruta 3
+Outdoor = true
+ShowArea = true
+MapPosition = 0,14,6
+BattleBack = field
+MapSize = 2,1101
+#-------------------------------
+[032]   # Gimnasio Meram
+Name = Gimnasio Meram
+ShowArea = true
+MapPosition = 0,19,6
+SnapEdges = true
+#-------------------------------
+[033]
+Name = Mazmorra Bosque
+Dungeon = true
+#-------------------------------
+[034]
+Name = Cueva de Hielo
+Bicycle = true
+MapPosition = 0,15,6
+BattleBack = cave1
+Environment = Cave
+Flags = IceRock
+#-------------------------------
+[035]
+Name = Meseta Añil exterior
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,6
+#-------------------------------
+[036]
+Name = Liga Pokémon entrada
+HealingSpot = 35,17,7
+MapPosition = 0,13,6
+#-------------------------------
+[037]
+Name = Liga Pokémon sala 1
+MapPosition = 0,13,6
+BattleBack = elite1
+Flags = DisableBoxLink
+#-------------------------------
+[038]
+Name = Hall de la Fama
+MapPosition = 0,13,6
+Flags = DisableBoxLink
+#-------------------------------
+[039]
+Name = Ruta 4
+Outdoor = true
+ShowArea = true
+MapPosition = 0,11,6
+BattleBack = field
+MapSize = 2,11
+#-------------------------------
+[040]
+Name = Ruta 4 Carril Bici
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+MapPosition = 0,11,6
+#-------------------------------
+[041]
+Name = Ruta 5
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+MapPosition = 0,11,7
+MapSize = 1,111
+#-------------------------------
+[043]   # Pueblo Saavedra
+Name = Pueblo Saavedra
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,19,10
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[044]
+Name = Ruta 6
+Outdoor = true
+ShowArea = true
+MapPosition = 0,11,10
+BattleBack = field
+MapSize = 2,11
+#-------------------------------
+[045]
+Name = Ruta 6 Carril Bici
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+MapPosition = 0,11,10
+#-------------------------------
+[046]
+Name = Ruta 4 Carril Bici entrada
+Bicycle = true
+MapPosition = 0,12,6
+#-------------------------------
+[047]
+Name = Ruta 7
+Outdoor = true
+ShowArea = true
+Weather = Rain,0
+MapPosition = 0,15,10
+BattleBack = rocky
+MapSize = 2,11
+Environment = Rock
+#-------------------------------
+[048]   # Ruta 11
+Name = Ruta 11
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,21,10
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[049]
+Name = Cueva de Roca P1
+Bicycle = true
+MapPosition = 0,16,10
+BattleBack = cave1
+Environment = Cave
+Flags = Magnetic,DistortionWorld
+#-------------------------------
+[050]
+Name = Cueva de Roca S1
+Bicycle = true
+MapPosition = 0,16,10
+DarkMap = true
+BattleBack = cave3
+Environment = Cave
+Flags = Magnetic,DistortionWorld
+#-------------------------------
+[051]   # Mazmorra
+Name = Mazmorra
+MapPosition = 0,6,2
+DarkMap = true
+Dungeon = true
+BattleBack = cave
+Environment = Cave
+Flags = Magnetic,DistortionWorld,ScaleWildEncounterLevels
+#-------------------------------
+[052]
+Name = Frente de Batalla
+Outdoor = true
+ShowArea = true
+MapPosition = 0,17,10
+#-------------------------------
+[053]
+Name = Centro Pokémon Frente de Batalla
+HealingSpot = 52,17,14
+MapPosition = 0,17,10
+#-------------------------------
+[054]
+Name = Tienda Frente de Batalla
+MapPosition = 0,17,10
+#-------------------------------
+[055]
+Name = Torre Batalla
+HealingSpot = 52,30,10
+MapPosition = 0,17,10
+#-------------------------------
+[056]
+Name = Arena Torre Batalla
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[057]
+Name = Vestíbulo Copa Estadio
+MapPosition = 0,17,10
+#-------------------------------
+[058]
+Name = Palacio Batalla
+MapPosition = 0,17,10
+#-------------------------------
+[059]
+Name = Battle Palace arena
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[060]
+Name = Dojo Batalla
+MapPosition = 0,17,10
+#-------------------------------
+[061]
+Name = Arena Dojo Batalla
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[062]
+Name = Fábrica Batalla
+MapPosition = 0,17,10
+#-------------------------------
+[063]
+Name = Pasillo inicial Fábrica Batalla
+MapPosition = 0,17,10
+Flags = DisableBoxLink
+#-------------------------------
+[064]
+Name = Arena Fábrica Batalla
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[065]
+Name = Pasillo Fábrica Batalla
+MapPosition = 0,17,10
+Flags = DisableBoxLink
+#-------------------------------
+[066]
+Name = Afueras Zona Safari
+Outdoor = true
+ShowArea = true
+MapPosition = 0,12,12
+BattleBack = field
+#-------------------------------
+[067]
+Name = Entrada Zona Safari
+MapPosition = 0,12,12
+#-------------------------------
+[068]
+Name = Zona Safari
+Outdoor = true
+ShowArea = true
+MapPosition = 0,12,12
+SafariMap = true
+BattleBack = forest
+Environment = Forest
+#-------------------------------
+[069]
+Name = Ruta 8
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,13
+DiveMap = 70
+BattleBack = field
+#-------------------------------
+[070]
+Name = Ruta 8 Fondo marino
+MapPosition = 0,13,13
+BattleBack = underwater
+Environment = Underwater
+#-------------------------------
+[071]
+Name = Ruta 8 Puerto
+MapPosition = 0,13,13
+#-------------------------------
+[072]
+Name = Isla Origen
+Outdoor = true
+ShowArea = true
+Weather = Storm,50
+MapPosition = 0,18,17
+BattleBack = field
+Flags = DistortionWorld
+#-------------------------------
+[073]
+Name = Isla Dyson
+Outdoor = true
+ShowArea = true
+MapPosition = 0,22,16
+BattleBack = field
+Flags = DistortionWorld
+#-------------------------------
+[074]
+Name = Ruta 6 Carril Bici entrada
+Bicycle = true
+MapPosition = 0,12,10
+#-------------------------------
+[075]
+Name = Región Tiall
+Outdoor = true
+MapPosition = 1,13,16
+BattleBack = city
+#-------------------------------
+[076]   # Ciudad Nova
+Name = Ciudad Nova
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,22,10
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[077]   # Ruta 2
+Name = Ruta 2
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,19,9
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[078]   # Ciudad Meram
+Name = Ciudad Meram
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,19,7
+SnapEdges = true
+#-------------------------------
+[079]   # Ruta 3
+Name = Ruta 3
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,7
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[080]   # Mina Onix
+Name = Mina Onix
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,16,7
+SnapEdges = true
+#-------------------------------
+[081]   # Ruta 1
+Name = Ruta 1
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,19,5
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[082]   # Cueva Onix
+Name = Cueva Onix
+ShowArea = true
+MapPosition = 0,16,7
+SnapEdges = true
+BattleBack = cave1
+#-------------------------------
+[083]   # Cueva Onix
+Name = Cueva Onix
+MapPosition = 0,16,7
+SnapEdges = true
+BattleBack = cave1
+#-------------------------------
+[084]   # Ruta 4
+Name = Ruta 4
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,16,9
+SnapEdges = true
+BattleBack = Field
+#-------------------------------
+[085]   # Ciudad Elos
+Name = Ciudad Elos
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,16,14
+SnapEdges = true
+#-------------------------------
+[086]   # Ruta 5
+Name = Ruta 5
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,16,15
+SnapEdges = true
+BattleBack = Field
+#-------------------------------
+[087]   # Costa Aquarina
+Name = Costa Aquarina
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,15
+SnapEdges = true
+BattleBack = Field
+#-------------------------------
+[088]   # Pasaje Ciudad Nova
+Name = Pasaje Ciudad Nova
+MapPosition = 0,21,10
+#-------------------------------
+[089]   # Pasaje Ruta 5
+Name = Pasaje Ruta 5
+MapPosition = 0,16,15
+#-------------------------------
+[090]   # Casas saavedra
+Name = Casas saavedra
+MapPosition = 0,19,10
+#-------------------------------
+[091]   # Estación De Pueblo Saavedra
+Name = Estacion De Pueblo Saavedra
+MapPosition = 0,19,10
+#-------------------------------
+[092]   # Ciudad Nova
+Name = Ciudad Nova
+MapPosition = 0,22,10
+#-------------------------------
+[093]   # Laboratorio Prof. Gacyf
+Name = Laboratorio Prof. Gacyf
+MapPosition = 0,23,10
+#-------------------------------
+[094]   # Pasaje Camino de Bicis
+Name = Pasaje Camino de Bicis
+MapPosition = 0,16,12
+#-------------------------------
+[095]   # Pasaje Ruta 4
+Name = Pasaje Ruta 4
+MapPosition = 0,16,9
+#-------------------------------
+[096]   # Hotel Dendelion
+Name = Hotel Dendelion
+MapPosition = 0,22,10
+#-------------------------------
+[097]   # Hotel Dendelion
+Name = Hotel Dendelion
+MapPosition = 0,22,10
+#-------------------------------
+[098]   # Hotel Dendelion
+Name = Hotel Dendelion
+MapPosition = 0,22,10
+#-------------------------------
+[099]   # Tienda
+Name = Tienda
+MapPosition = 0,23,10
+#-------------------------------
+[100]   # Centro Pokémon
+Name = Centro Pokémon
+MapPosition = 0,23,10
+#-------------------------------
+[101]   # Ciudad Meram
+Name = Ciudad Meram
+MapPosition = 0,19,7
+#-------------------------------
+[102]   # Centro Pokémon
+Name = Centro Pokémon
+MapPosition = 0,19,7
+#-------------------------------
+[103]   # Tienda
+Name = Tienda
+MapPosition = 0,19,7
+#-------------------------------
+[104]   # ScarfDrill Mineria.
+Name = ScarfDrill Mineria.
+MapPosition = 0,19,7
+#-------------------------------
+[105]   # Centro Pokémon
+Name = Centro Pokémon
+MapPosition = 0,16,14
+#-------------------------------
+[106]   # Tienda de bicis
+Name = Tienda
+MapPosition = 0,16,14
+#-------------------------------
+[107]   # Pasaje ruta 6
+Name = Pasaje ruta 6
+MapPosition = 0,15,14
+#-------------------------------
+[108]   # Bar
+Name = Bar
+MapPosition = 0,16,15
+#-------------------------------
+[109]   # Ruta 6
+Name = Ruta 6
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,13,14
+SnapEdges = true
+BattleBack = Field
+#-------------------------------
+[110]   # Ruta 7
+Name = Ruta 7
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,15
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[111]   # Pasaje Ruta 7
+Name = Pasaje Ruta 7
+Bicycle = true
+MapPosition = 0,8,15
+#-------------------------------
+[112]   # Ruta 7
+Name = Ruta 7
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,7,15
+SnapEdges = true
+BattleBack = snow
+#-------------------------------
+[113]   # Ruinas antiguas
+Name = Ruinas antiguas
+Bicycle = true
+MapPosition = 0,10,13
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[114]   # Ruinas antiguas
+Name = Ruinas antiguas
+Bicycle = true
+MapPosition = 0,10,13
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[115]   # Ruinas antiguas
+Name = Ruinas antiguas
+Bicycle = true
+MapPosition = 0,10,13
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[116]   # Ruta 7
+Name = Ruta 7
+Outdoor = true
+ShowArea = true
+MapPosition = 0,6,15
+SnapEdges = true
+BattleBack = snow
+#-------------------------------
+[117]   # Pasaje Ciudad Steeliet
+Name = Pasaje Ciudad Steeliet
+MapPosition = 0,6,15
+#-------------------------------
+[118]   # Ciudad Steeliet
+Name = Ciudad Steeliet
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,15
+SnapEdges = true
+#-------------------------------
+[119]   # Gimnasio Steeliet
+Name = Gimnasio Steeliet
+MapPosition = 0,5,14
+#-------------------------------
+[120]   # Cueva steelix
+Name = Cueva steelix
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,15
+BattleBack = cave2
+#-------------------------------
+[121]   # Ciudad Steeliet
+Name = Ciudad Steeliet
+Outdoor = true
+MapPosition = 0,5,14
+SnapEdges = true
+BattleBack = snow
+#-------------------------------
+[122]   # Cueva steelix piso -1
+Name = Cueva steelix piso -1
+Bicycle = true
+MapPosition = 0,5,15
+BattleBack = cave2
+#-------------------------------
+[123]   # Cueva steelix piso -1A2
+Name = Cueva steelix piso -1A2
+Bicycle = true
+MapPosition = 0,5,15
+SnapEdges = true
+BattleBack = cave2
+#-------------------------------
+[124]   # CUEVA STEELIX PISO-2
+Name = CUEVA STEELIX PISO-2
+MapPosition = 0,5,15
+BattleBack = cave2
+#-------------------------------
+[125]   # CUEVA STEELIX Piso-3
+Name = CUEVA STEELIX Piso-3
+MapPosition = 0,5,15
+BattleBack = cave2
+#-------------------------------
+[126]   # CUEVA STEELIX PISO-4
+Name = CUEVA STEELIX PISO-4
+MapPosition = 0,5,15
+BattleBack = cave2
+#-------------------------------
+[127]   # Cueva Steelix piso -4
+Name = Cueva Steelix piso -4
+MapPosition = 0,5,15
+BattleBack = cave2
+#-------------------------------
+[128]   # CUEVA STEELIX PISO -4/2
+Name = CUEVA STEELIX PISO -4/2
+MapPosition = 0,5,15
+BattleBack = cave2
+#-------------------------------
+[129]   # Oscuro
+Name = Oscuro
+#-------------------------------
+[130]   # Cueva steelix 
+Name = Cueva steelix
+MapPosition = 0,5,15
+BattleBack = cave1
+#-------------------------------
+[131]   # Estacion De Ciudad Steeliet
+Name = Estacion De Ciudad Steeliet
+MapPosition = 0,5,14
+#-------------------------------
+[132]   # Camino arido
+Name = Camino arido
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,13
+SnapEdges = true
+BattleBack = desert
+#-------------------------------
+[133]   # Ruta 8
+Name = Ruta 8
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,8,11
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[134]   # Ruta 8
+Name = Ruta 8
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,11
+SnapEdges = true
+BattleBack = swamp
+#-------------------------------
+[135]   # Pasaje Desierto
+Name = Ruta 8
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,10,10
+SnapEdges = true
+#-------------------------------
+[136]   # Gran Pantano
+Name = Gran Pantano
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,8,8
+SnapEdges = true
+BattleBack = swamp
+#-------------------------------
+[137]   # Ciudad Lleca
+Name = Ciudad Lleca
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,11
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[138]   # Cueva lleca
+Name = Cueva lleca
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,11
+BattleBack = cave1
+#-------------------------------
+[139]   # Cueva lleca
+Name = Cueva lleca
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,11
+SnapEdges = true
+BattleBack = cave1
+#-------------------------------
+[140]   # Gimnasio Ciudad Lleca
+Name = Gimnasio Ciudad Lleca
+ShowArea = true
+MapPosition = 0,6,10
+BattleBack = indoor3
+#-------------------------------
+[141]   # Caverna
+Name = Caverna
+Bicycle = true
+MapPosition = 0,6,15
+SnapEdges = true
+BattleBack = cave2
+#-------------------------------
+[142]   # Ciudad Steeliet
+Name = Ciudad Steeliet
+MapPosition = 0,5,14
+#-------------------------------
+[143]   # Ciudad Chains
+Name = Ciudad Chains
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,4
+#-------------------------------
+[144]   # Ciudad Chains
+Name = Ciudad Chains
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,4,4
+#-------------------------------
+[145]   # Ciudad Chains
+Name = Ciudad Chains
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,4,3
+#-------------------------------
+[146]   # Ciudad Chains
+Name = Ciudad Chains
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,3
+#-------------------------------
+[147]   # Ruta 10
+Name = Ruta 10
+Outdoor = true
+Bicycle = true
+MapPosition = 0,5,5
+BattleBack = rocky
+#-------------------------------
+[148]   # Ruta 10
+Name = Ruta 10
+Outdoor = true
+Bicycle = true
+MapPosition = 0,5,5
+BattleBack = rocky
+#-------------------------------
+[149]   # Pasaje Ciudad Chains
+Name = Pasaje Ciudad Chains
+Bicycle = true
+MapPosition = 0,5,5
+#-------------------------------
+[150]   # Centro Pokémon
+Name = Centro Pokémon
+MapPosition = 0,5,4
+#-------------------------------
+[151]   # Edificio Batalla
+Name = Edificio Batalla
+ShowArea = true
+MapPosition = 0,4,4
+#-------------------------------
+[152]   # Casino
+Name = Casino
+ShowArea = true
+MapPosition = 0,4,3
+#-------------------------------
+[153]   # Centro Comercial Rotombola
+Name = Centro Comercial Rotombola
+ShowArea = true
+MapPosition = 0,4,3
+#-------------------------------
+[155]   # Edificio Batalla Azotea
+Name = Edificio Batalla Azotea
+Outdoor = true
+ShowArea = true
+MapPosition = 0,4,4
+SnapEdges = true
+#-------------------------------
+[156]   # Ciudad Chains
+Name = Ciudad Chains
+MapPosition = 0,5,4
+#-------------------------------
+[157]   # Centro de Investigaciones Dimensionales
+Name = Centro de Investigaciones Dimensionales
+MapPosition = 0,5,3
+#-------------------------------
+[158]   # Ciudad Lleca
+Name = Ciudad Lleca
+MapPosition = 0,6,11
+#-------------------------------
+[159]   # Cordillera Steelix
+Name = Cordillera Steelix
+Outdoor = true
+ShowArea = true
+MapPosition = 0,3,4
+SnapEdges = true
+BattleBack = snow
+#-------------------------------
+[160]   # Cordillera Steelix
+Name = Cordillera Steelix
+Outdoor = true
+MapPosition = 0,3,3
+SnapEdges = true
+BattleBack = snow
+#-------------------------------
+[161]   # Cordillera Steelix
+Name = Cordillera Steelix
+Outdoor = true
+MapPosition = 0,3,3
+SnapEdges = true
+BattleBack = snow
+#-------------------------------
+[162]   # Cordillera Steelix
+Name = Cordillera Steelix
+Outdoor = true
+MapPosition = 0,3,3
+SnapEdges = true
+BattleBack = snow
+#-------------------------------
+[163]   # Cordillera Steelix
+Name = Cordillera Steelix
+Outdoor = true
+MapPosition = 0,3,3
+SnapEdges = true
+BattleBack = snow
+#-------------------------------
+[164]   # Cordillera Steelix
+Name = Cordillera Steelix
+Outdoor = true
+MapPosition = 0,3,3
+SnapEdges = true
+BattleBack = snow
+#-------------------------------
+[165]   # Ciudad Rosa
+Name = Ciudad Rosa
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,10,8
+SnapEdges = true
+#-------------------------------
+[166]   # Ciudad Rosa
+Name = Ciudad Rosa
+MapPosition = 0,10,8
+#-------------------------------
+[167]   # Centro Pokémon
+Name = Centro Pokémon
+MapPosition = 0,10,8
+#-------------------------------
+[168]   # Gimnasio Ciudad Rosa
+Name = Gimnasio Ciudad Rosa
+ShowArea = true
+MapPosition = 0,11,7
+#-------------------------------
+[169]   # Ciudad Rosa
+Name = Ciudad Rosa
+MapPosition = 0,11,7
+#-------------------------------
+[170]   # Ciudad Rosa
+Name = Ciudad Rosa
+MapPosition = 0,10,7
+#-------------------------------
+[171]   # Pueblo Paso
+Name = Pueblo Paso
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,3
+SnapEdges = true
+#-------------------------------
+[172]   # Pueblo Paso
+Name = Pueblo Paso
+MapPosition = 0,17,3
+#-------------------------------
+[173]   # Ruta 0
+Name = Ruta 0
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,16,3
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[175]   # Safari Zona-Desierto
+Name = Safari Zona-Desierto
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,2,9
+SafariMap = true
+SnapEdges = true
+BattleBack = desert
+#-------------------------------
+[176]   # Safari Zona-Montaña
+Name = Safari Zona-Montaña
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,2,9
+SafariMap = true
+SnapEdges = true
+BattleBack = rocky
+#-------------------------------
+[177]   # Safari Zona-Montaña
+Name = Safari Zona-Montaña
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,2,9
+SafariMap = true
+SnapEdges = true
+#-------------------------------
+[178]   # Instalaciones Abandonadas
+Name = Instalaciones Abandonadas
+ShowArea = true
+Bicycle = true
+MapPosition = 0,2,9
+SafariMap = true
+BattleBack = indoor1
+#-------------------------------
+[179]   # Laboratorio Abandonado
+Name = Laboratorio Abandonado
+ShowArea = true
+Bicycle = true
+MapPosition = 0,2,9
+SafariMap = true
+BattleBack = indoor1
+#-------------------------------
+[180]   # Laboratorio Abandonado
+Name = Laboratorio Abandonado
+Bicycle = true
+MapPosition = 0,2,9
+SafariMap = true
+BattleBack = indoor1
+#-------------------------------
+[181]   # Safari Zona Bosque
+Name = Safari Zona Bosque
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,2,9
+SafariMap = true
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[185]   # Desierto 
+Name = Desierto
+Outdoor = true
+ShowArea = true
+MapPosition = 0,4,7
+BattleBack = desert
+#-------------------------------
+[186]   # Desierto
+Name = Desierto
+Outdoor = true
+ShowArea = true
+MapPosition = 0,4,7
+SnapEdges = true
+BattleBack = desert
+#-------------------------------
+[187]   # Desierto
+Name = Desierto
+Outdoor = true
+ShowArea = true
+SnapEdges = true
+BattleBack = desert
+#-------------------------------
+[188]   # Desierto
+Name = Desierto
+Outdoor = true
+ShowArea = true
+MapPosition = 0,4,7
+SnapEdges = true
+BattleBack = desert
+#-------------------------------
+[189]   # Desierto
+Name = Desierto
+Outdoor = true
+ShowArea = true
+SnapEdges = true
+BattleBack = desert
+#-------------------------------
+[190]   # Desierto
+Name = Desierto
+Outdoor = true
+ShowArea = true
+MapPosition = 0,4,7
+SnapEdges = true
+BattleBack = desert
+#-------------------------------
+[191]   # Desierto
+Name = Desierto
+Outdoor = true
+ShowArea = true
+MapPosition = 0,4,7
+SnapEdges = true
+BattleBack = desert
+#-------------------------------
+[192]   # Ruínas De la Cosecha
+Name = Ruínas De la Cosecha
+Outdoor = true
+ShowArea = true
+MapPosition = 0,4,7
+SnapEdges = true
+BattleBack = desert
+#-------------------------------
+[193]   # Cueva Cosecha
+Name = Cueva Cosecha
+ShowArea = true
+MapPosition = 0,3,6
+BattleBack = cave1
+#-------------------------------
+[194]   # Cueva Cosecha
+Name = Cueva Cosecha
+ShowArea = true
+MapPosition = 0,3,6
+SnapEdges = true
+BattleBack = cave2
+#-------------------------------
+[195]   # Cueva Cosecha
+Name = Cueva Cosecha
+Outdoor = true
+ShowArea = true
+MapPosition = 0,3,6
+SnapEdges = true
+BattleBack = cave2
+#-------------------------------
+[196]   # Cueva Cosecha
+Name = Cueva Cosecha
+Outdoor = true
+ShowArea = true
+MapPosition = 0,3,6
+SnapEdges = true
+BattleBack = cave2
+#-------------------------------
+[197]   # Costa Aquarina
+Name = Ciudad Plata
+Outdoor = true
+ShowArea = true
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[200]   # Cueva Onix
+Name = Cueva Onix
+Bicycle = true
+MapPosition = 0,16,7
+BattleBack = Cave1
+#-------------------------------
+[201]   # Cueva Onix
+Name = Cueva Onix
+Bicycle = true
+MapPosition = 0,16,7
+BattleBack = Cave1
+#-------------------------------
+[202]   # Cueva Onix
+Name = Cueva Onix
+Bicycle = true
+MapPosition = 0,16,7
+BattleBack = Cave1
+#-------------------------------
+[203]   # Cueva Onix
+Name = Cueva Onix
+Bicycle = true
+MapPosition = 0,16,7
+BattleBack = Cave1
+#-------------------------------
+[204]   # Cueva Onix
+Name = Cueva Onix
+Bicycle = true
+MapPosition = 0,16,7
+BattleBack = Cave1
+#-------------------------------
+[232]   # Sala de Concursos Pokémon
+Name = Sala de Concursos Pokémon
+MapPosition = 0,10,4
+#-------------------------------
+[239]   # Villa Epecuén
+Name = Villa Epecuén
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,11,14
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[240]   #  Ciudad Plata
+Name = Ciudad Plata
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,10,3
+BattleBack = city
+#-------------------------------
+[241]   # Ciudad Plata
+Name = Ciudad Plata
+Outdoor = true
+Bicycle = true
+MapPosition = 0,10,4
+BattleBack = city
+#-------------------------------
+[242]   # Ciudad Plata
+Name = Ciudad Plata
+Outdoor = true
+Bicycle = true
+MapPosition = 0,10,2
+BattleBack = city
+#-------------------------------
+[243]   # Ciudad Plata
+Name = Ciudad Plata
+Outdoor = true
+Bicycle = true
+MapPosition = 0,11,3
+BattleBack = city
+#-------------------------------
+[244]   # Ciudad Plata
+Name = Ciudad Plata
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,11,4
+BattleBack = city
+#-------------------------------
+[245]   # Ciudad Plata
+Name = Ciudad Plata
+Outdoor = true
+Bicycle = true
+MapPosition = 0,11,2
+BattleBack = city
+#-------------------------------
+[246]   # Ciudad Plata
+Name = Ciudad Plata
+Outdoor = true
+Bicycle = true
+MapPosition = 0,9,2
+BattleBack = city
+#-------------------------------
+[247]   # Ciudad Plata
+Name = Ciudad Plata
+Outdoor = true
+Bicycle = true
+MapPosition = 0,9,3
+BattleBack = city
+#-------------------------------
+[248]   # Ciudad Plata
+Name = Ciudad Plata
+Outdoor = true
+Bicycle = true
+MapPosition = 0,9,4
+BattleBack = city
+#-------------------------------
+[249]   # Ruta 9
+Name = Ruta 9
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,11
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[250]   # Ruta 9
+Name = Ruta 9
+Outdoor = true
+ShowArea = true
+MapPosition = 0,10,11
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[251]   # Ruta 10
+Name = Ruta 10
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,7
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[252]   # Ruta 13
+Name = Ruta 13
+Outdoor = true
+Bicycle = true
+MapPosition = 0,6,3
+BattleBack = rocky
+#-------------------------------
+[253]   # Pueblo Talia
+Name = Pueblo Talia
+Outdoor = true
+Bicycle = true
+MapPosition = 0,7,3
+BattleBack = field
+#-------------------------------
+[295]   # Ruta 13
+Name = Ruta 13
+Outdoor = true
+Bicycle = true
+MapPosition = 0,8,3
+BattleBack = field
+#-------------------------------
+[299]   # Bosque Plata
+Name = Bosque Plata
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,13,3
+SnapEdges = true
+BattleBack = Forest
+#-------------------------------
+[300]   # Pueblo Azcuenaga
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,3
+SnapEdges = true
+#-------------------------------
+[301]   # Ruta 14
+Name = Ruta 14
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,10,6
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[302]   # Ruta 0
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,16,3
+SnapEdges = true
+#-------------------------------
+[303]   # Ruta 15
+Name = Ruta 15
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,8
+SnapEdges = true
+BattleBack = Forest
+#-------------------------------
+[304]   # Ruta 15
+Name = Ruta 15
+Outdoor = true
+ShowArea = true
+MapPosition = 0,9,8
+SnapEdges = true
+BattleBack = Forest
+#-------------------------------
+[305]   # Ruta 16
+Name = Ruta 16
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,13,8
+SnapEdges = true

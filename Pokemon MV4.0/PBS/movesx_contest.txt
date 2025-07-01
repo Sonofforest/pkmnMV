@@ -1,0 +1,6670 @@
+#-------------------------------
+[MEGAHORN]
+#Megacuerno
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[ATTACKORDER]
+#Al Ataque
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesBetterIfIncreasesCrowdExcitement
+ContestFlags = 
+ContestDescription = Funciona mejor si el entusiasmo de la audiencia es alto.
+#-------------------------------
+[BUGBUZZ]
+#Zumbido
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesBetterIfIncreasesCrowdExcitement
+ContestFlags = 
+ContestDescription = Funciona mejor si el entusiasmo de la audiencia es alto.
+#-------------------------------
+[FIRSTIMPRESSION]
+#Escaramuza
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnRoundNumberLower
+ContestFlags = 
+ContestDescription = La exhibición es mejor cuanto antes se exhiba.
+#-------------------------------
+[POLLENPUFF]
+#Bola de Polen
+ContestType = COOL
+ContestHearts = 8
+ContestJam = 0
+ContestFunctionCode = NoMoreMoves
+ContestFlags = 
+ContestDescription = Tiene un gran atractivo, pero impide que el usuario realice más movimientos en el concurso.
+#-------------------------------
+[LEECHLIFE]
+#Chupavidas
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario..
+#-------------------------------
+[LUNGE]
+#Plancha
+ContestType = COOL
+ContestHearts = 8
+ContestJam = 0
+ContestFunctionCode = NoMoreMoves
+ContestFlags = 
+ContestDescription = Tiene un gran atractivo, pero impide que el usuario realice más movimientos en el concurso.
+#-------------------------------
+[XSCISSOR]
+#Tijera X
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[SIGNALBEAM]
+#Rayo Señal
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = StealsAttention
+ContestFlags = 
+ContestDescription = Hace que el juez espere poco de los demás concursantes.
+#-------------------------------
+[SKITTERSMACK]
+#Golpe Rastrero
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[UTURN]
+#Ida y Vuelta
+ContestType = CUTE
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[STEAMROLLER]
+#Rodillo de Púas
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[BUGBITE]
+#Picadura
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[SILVERWIND]
+#Viento Plata
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[FELLSTINGER]
+#Aguijón Letal
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnCrowdExcitementHigher
+ContestFlags = 
+ContestDescription = Funciona mejor cuanto más emocionada esté la audiencia.
+#-------------------------------
+[STRUGGLEBUG]
+#Estoicismo
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[FURYCUTTER]
+#Corte Furia
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[PINMISSILE]
+#Pin Misil
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[TWINEEDLE]
+#Doble Ataque
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[INFESTATION]
+#Acoso
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[DEFENDORDER]
+#A Defender
+ContestType = SMART
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima exhibición.
+#-------------------------------
+[HEALORDER]
+#Auxilio
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = EqualsCrowdExcitement
+ContestFlags = 
+ContestDescription = El atractivo depende del entusiasmo del público.
+#-------------------------------
+[POWDER]
+#Polvo Explosivo
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[QUIVERDANCE]
+#Danza Aleteo
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[RAGEPOWDER]
+#Polvo Ira
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[SPIDERWEB]
+#Telaraña
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[STICKYWEB]
+#Red Viscosa
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[STRINGSHOT]
+#Disparo Demora
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[TAILGLOW]
+#Luminicola
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[HYPERSPACEFURY]
+#Cerco Dimensión
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[FOULPLAY]
+#Juego Sucio
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Aterra a quienes han hecho exhibiciones.
+#-------------------------------
+[FIERYWRATH]
+#Furia Candente
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[DARKESTLARIAT]
+#Lariat Oscuro
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[NIGHTDAZE]
+#Pulso Noche
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[CRUNCH]
+#Triturar
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[DARKPULSE]
+#Pulso Umbrío
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[FALSESURRENDER]
+#Irreverencia
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[JAWLOCK]
+#Presa Maxilar
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[THROATCHOP]
+#Golpe Mordaza
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[WICKEDBLOW]
+#Golpe Oscuro
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[LASHOUT]
+#Desahogo
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesBetterLaterPerformed
+ContestFlags = 
+ContestDescription = La exhibición funciona mejor cuanto más tarde se realiza por turno.
+#-------------------------------
+[NIGHTSLASH]
+#Tajo Umbrío
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DependsOnAppealInFront
+ContestFlags = 
+ContestDescription = Afectado por lo bien que fue el movimiento del Pokémon anterior.
+#-------------------------------
+[SUCKERPUNCH]
+#Golpe Bajo
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[KNOCKOFF]
+#Desarme
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[ASSURANCE]
+#Buena Baza
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesBetterLaterPerformed
+ContestFlags = 
+ContestDescription = La exhibición funciona mejor cuanto más tarde se realiza por turno.
+#-------------------------------
+[BITE]
+#Mordisco
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[BRUTALSWING]
+#Giro Vil
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = ScrambleOrderNextTurn
+ContestFlags = 
+ContestDescription = Cambia el orden de las exhibiciones en el siguiente turno.
+#-------------------------------
+[FEINTATTACK]
+#Finta
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[THIEF]
+#Ladrón
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[SNARL]
+#Alarido
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[PAYBACK]
+#Vendetta
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[PURSUIT]
+#Persecución
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[BEATUP]
+#Paliza
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[FLING]
+#Lanzamiento
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[POWERTRIP]
+#Chulería
+ContestType = SMART
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima exhibición.
+#-------------------------------
+[PUNISHMENT]
+#Castigo
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención de los jueces.
+#-------------------------------
+[DARKVOID]
+#Brecha Negra
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[EMBARGO]
+#Embargo
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[FAKETEARS]
+#Llanto Falso
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[FLATTER]
+#Camelo
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[HONECLAWS]
+#Afilagarras
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[MEMENTO]
+#Legado
+ContestType = TOUGH
+ContestHearts = 8
+ContestJam = 0
+ContestFunctionCode = NoMoreMoves
+ContestFlags = 
+ContestDescription = Tiene un gran atractivo, pero impide que el usuario realice más movimientos en el concurso.
+#-------------------------------
+[NASTYPLOT]
+#Maquinación
+ContestType = CUTE
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima exhibición.
+#-------------------------------
+[OBSTRUCT]
+#Obstrucción
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[PARTINGSHOT]
+#Última Palabra
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[QUASH]
+#Último Lugar
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[SNATCH]
+#Robo
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[SWITCHEROO]
+#Trapicheo
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[TAUNT]
+#Mofa
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[TOPSYTURVY]
+#Reversión
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = ScrambleOrderNextTurn
+ContestFlags = 
+ContestDescription = Cambia el orden de las exhibiciones en el siguiente turno.
+#-------------------------------
+[TORMENT]
+#Tormento
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[ETERNABEAM]
+#Rayo Infinito
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 4
+ContestFunctionCode = StartleOthersMissNextTurn
+ContestFlags = 
+ContestDescription = Asusta a todos los demás Pokémon. Pero puedes actuar en el siguiente turno.
+#-------------------------------
+[DRAGONENERGY]
+#Dracoenergía
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnUsersSpirit
+ContestFlags = 
+ContestDescription = Funciona bien si el espíritu del Pokémon es bueno.
+#-------------------------------
+[ROAROFTIME]
+#Distorsión
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = GainAppealValueOfOtherInFront
+ContestFlags = 
+ContestDescription = Añade la puntuación de la exhibición del Pokémon anterior al tuyo.
+#-------------------------------
+[DRACOMETEOR]
+#Cometa Draco
+ContestType = BEAUTY
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[OUTRAGE]
+#Enfado
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 4
+ContestFunctionCode = StartleOthersMissNextTurn
+ContestFlags = 
+ContestDescription = Asusta a todos los demás Pokémon. Pero puedes actuar en el siguiente turno.
+#-------------------------------
+[CLANGINGSCALES]
+#Fragor Escamas
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[COREENFORCER]
+#Núcleo Castigo
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[DRAGONRUSH]
+#Carga Dragón
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[DYNAMAXCANNON]
+#Cañón Dinamax
+ContestType = SMART
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[SPACIALREND]
+#Corte Vacío
+ContestType = BEAUTY
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[DRAGONHAMMER]
+#Martillo Dragón
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[DRAGONPULSE]
+#Pulso Dragón
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesBetterIfIncreasesCrowdExcitement
+ContestFlags = 
+ContestDescription = Funciona mejor si el entusiasmo de la audiencia es alto.
+#-------------------------------
+[DRAGONCLAW]
+#Garra Dragón
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[BREAKINGSWIPE]
+#Vasto Impacto
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[DRAGONBREATH]
+#Dragoaliento
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[DRAGONTAIL]
+#Cola Dragón
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveLater
+ContestFlags = 
+ContestDescription = Hace que el Pokémon se exhiba más tarde en el siguiente turno.
+#-------------------------------
+[DRAGONDARTS]
+#Dracoflechas
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[DUALCHOP]
+#Golpe Bis
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[TWISTER]
+#Ciclón
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = ScrambleOrderNextTurn
+ContestFlags = 
+ContestDescription = Cambia el orden de las exhibiciones en el siguiente turno.
+#-------------------------------
+[SCALESHOT]
+#Ráfaga Escamas
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[DRAGONRAGE]
+#Furia Dragón
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[CLANGOROUSSOUL]
+#Estruendo Escama
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[DRAGONDANCE]
+#Danza Dragón
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[BOLTSTRIKE]
+#Ataque Fulgor
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[VOLTTACKLE]
+#Placaje Eléctrico
+ContestType = COOL
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[ZAPCANNON]
+#Electrocañón
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersGoodAppeals
+ContestFlags = 
+ContestDescription = Asusta a todos los Pokémon, más aún a los que hicieron buenas exhibiciones.
+#-------------------------------
+[AURAWHEEL]
+#Rueda Aural
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = StealsAttention
+ContestFlags = 
+ContestDescription = Hace que el juez espere poco de los demás concursantes.
+#-------------------------------
+[THUNDER]
+#Trueno
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 2
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[FUSIONBOLT]
+#Rayo Fusión
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesBetterLaterPerformed
+ContestFlags = 
+ContestDescription = La exhibición funciona mejor cuanto más tarde se realiza por turno.
+#-------------------------------
+[PLASMAFISTS]
+#Puños Plasma
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[THUNDERBOLT]
+#Rayo
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[WILDCHARGE]
+#Voltio Cruel
+ContestType = TOUGH
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[BOLTBEAK]
+#Electropico
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[DISCHARGE]
+#Chispazo
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[OVERDRIVE]
+#Amplificador
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[THUNDERCAGE]
+#Electrojaula
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[ZINGZAP]
+#Electropunzada
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[THUNDERPUNCH]
+#Puño Trueno
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[RISINGVOLTAGE]
+#Alto Voltaje
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[VOLTSWITCH]
+#Voltiocambio
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[PARABOLICCHARGE]
+#Carga Parábola
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[SPARK]
+#Chispa
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[THUNDERFANG]
+#Colmillo Rayo
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[SHOCKWAVE]
+#Onda Voltio
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[ELECTROWEB]
+#Electrotela
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[CHARGEBEAM]
+#Rayo Carga
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[THUNDERSHOCK]
+#Impactrueno
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[NUZZLE]
+#Moflete Estático
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[ELECTROBALL]
+#Bola Voltio
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[CHARGE]
+#Carga
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[EERIEIMPULSE]
+#Onda Anómala
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[ELECTRICTERRAIN]
+#Campo Eléctrico
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[ELECTRIFY]
+#Electrificación
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[IONDELUGE]
+#Cortina Plasma
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[MAGNETRISE]
+#Levitón
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[MAGNETICFLUX]
+#Aura Magnética
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[THUNDERWAVE]
+#Onda Trueno
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersGoodAppeals
+ContestFlags = 
+ContestDescription = Asusta a todos los Pokémon, más aún a los que hicieron buenas exhibiciones.
+#-------------------------------
+[LIGHTOFRUIN]
+#Luz Aniquiladora
+ContestType = BEAUTY
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[FLEURCANNON]
+#Cañón Floral
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[MISTYEXPLOSION]
+#Bruma Explosiva
+ContestType = CUTE
+ContestHearts = 8
+ContestJam = 0
+ContestFunctionCode = NoMoreMoves
+ContestFlags = 
+ContestDescription = Tiene un gran atractivo, pero impide que el usuario realice más movimientos en el concurso.
+#-------------------------------
+[MOONBLAST]
+#Fuerza Lunar
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[PLAYROUGH]
+#Carantoña
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[STRANGESTEAM]
+#Cautivapor
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[DAZZLINGGLEAM]
+#Brillo Mágico
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[SPIRITBREAK]
+#Choque Anímico
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[DRAININGKISS]
+#Beso Drenaje
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[DISARMINGVOICE]
+#Voz Cautivadora
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[FAIRYWIND]
+#Viento Feérico
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[NATURESMADNESS]
+#Furia Natural
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = ScrambleOrderNextTurn
+ContestFlags = 
+ContestDescription = Cambia el orden de las exhibiciones en el siguiente turno.
+#-------------------------------
+[AROMATICMIST]
+#Niebla Aromática
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[BABYDOLLEYES]
+#Ojitos Tiernos
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[CHARM]
+#Encanto
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[CRAFTYSHIELD]
+#Truco Defensa
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[DECORATE]
+#Decoración
+ContestType = CUTE
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima exhibición.
+#-------------------------------
+[FAIRYLOCK]
+#Cerrojo Feérico
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[FLORALHEALING]
+#Cura Floral
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[FLOWERSHIELD]
+#Defensa Floral
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[GEOMANCY]
+#Geocontrol
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[MISTYTERRAIN]
+#Campo de Niebla
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[MOONLIGHT]
+#Luz Lunar
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[SWEETKISS]
+#Beso Dulce
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[FOCUSPUNCH]
+#Puño Certero
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[METEORASSAULT]
+#Asalto Estelar
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 4
+ContestFunctionCode = StartleOthersMissNextTurn
+ContestFlags = 
+ContestDescription = Asusta a todos los demás Pokémon. Pero puedes actuar en el siguiente turno.
+#-------------------------------
+[HIGHJUMPKICK]
+#Patada Salto Alta
+ContestType = COOL
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[CLOSECOMBAT]
+#A Bocajarro
+ContestType = TOUGH
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[FOCUSBLAST]
+#Onda Certera
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[SUPERPOWER]
+#Fuerza Bruta
+ContestType = TOUGH
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[CROSSCHOP]
+#Tajo Cruzado
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DependsOnAppealInFront
+ContestFlags = 
+ContestDescription = Afectado por lo bien que fue el movimiento del Pokémon anterior.
+#-------------------------------
+[DYNAMICPUNCH]
+#Puño Dinámico
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[FLYINGPRESS]
+#Plancha Voladora
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[HAMMERARM]
+#Machada
+ContestType = TOUGH
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[JUMPKICK]
+#Patada Salto
+ContestType = COOL
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[SACREDSWORD]
+#Espada Santa
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AlwaysExcitesCrowd
+ContestFlags = 
+ContestDescription = Emociona al público en cualquier tipo de concurso.
+#-------------------------------
+[THUNDEROUSKICK]
+#Patada Relámpago
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[SECRETSWORD]
+#Sable Místico
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[SKYUPPERCUT]
+#Gancho Alto
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[AURASPHERE]
+#Esfera Aural
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[BODYPRESS]
+#Plancha Corporal
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnCrowdExcitementHigher
+ContestFlags = 
+ContestDescription = Funciona mejor cuanto más emocionada esté la audiencia.
+#-------------------------------
+[SUBMISSION]
+#Sumisión
+ContestType = COOL
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[BRICKBREAK]
+#Demolición
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[DRAINPUNCH]
+#Puño Drenaje
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[VITALTHROW]
+#Llave Vital
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[WAKEUPSLAP]
+#Espabila
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoesGreatIfOtherInFrontDidPoor
+ContestFlags = 
+ContestDescription = Funciona mejor si la última exhibición tuvo malos resultados
+#-------------------------------
+[LOWSWEEP]
+#Puntapié
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[CIRCLETHROW]
+#Llave Giro
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveLater
+ContestFlags = 
+ContestDescription = Hace que el Pokémon se exhiba más tarde en el siguiente turno.
+#-------------------------------
+[FORCEPALM]
+#Palmeo
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[REVENGE]
+#Desquite
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[ROLLINGKICK]
+#Patada Giro
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[STORMTHROW]
+#Llave Corsé
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AlwaysExcitesCrowd
+ContestFlags = 
+ContestDescription = Emociona al público en cualquier tipo de concurso.
+#-------------------------------
+[KARATECHOP]
+#Golpe Kárate
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DependsOnAppealInFront
+ContestFlags = 
+ContestDescription = Afectado por lo bien que fue el movimiento del Pokémon anterior.
+#-------------------------------
+[MACHPUNCH]
+#Ultrapuño
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[POWERUPPUNCH]
+#Puño Incremento
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnUsersSpirit
+ContestFlags = 
+ContestDescription = Funciona bien si el espíritu del Pokémon es bueno..
+#-------------------------------
+[ROCKSMASH]
+#Golpe Roca
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[VACUUMWAVE]
+#Onda Vacío
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[DOUBLEKICK]
+#Doble Patada
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[ARMTHRUST]
+#Empujón
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[TRIPLEKICK]
+#Triple Patada
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[COUNTER]
+#Contraataque
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[FINALGAMBIT]
+#Sacrificio
+ContestType = TOUGH
+ContestHearts = 8
+ContestJam = 0
+ContestFunctionCode = NoMoreMoves
+ContestFlags = 
+ContestDescription = Tiene un gran atractivo, pero impide que el usuario realice más movimientos en el concurso.
+#-------------------------------
+[LOWKICK]
+#Patada Baja
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[REVERSAL]
+#Inversión
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesBetterLaterPerformed
+ContestFlags = 
+ContestDescription = La exhibición funciona mejor cuanto más tarde se realiza por turno.
+#-------------------------------
+[SEISMICTOSS]
+#Sísmico
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[BULKUP]
+#Corpulencia
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[COACHING]
+#Motivación
+ContestType = SMART
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima exhibición.
+#-------------------------------
+[DETECT]
+#Detección
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[MATBLOCK]
+#Escudo Tatami
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[NORETREAT]
+#Bastión Final
+ContestType = SMART
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima exhibición.
+#-------------------------------
+[OCTOLOCK]
+#Octopresa
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[QUICKGUARD]
+#Anticipo
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[VCREATE]
+#V de Fuego
+ContestType = BEAUTY
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[BLASTBURN]
+#Anillo Ígneo
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 4
+ContestFunctionCode = StartleOthersMissNextTurn
+ContestFlags = 
+ContestDescription = Asusta a todos los demás Pokémon. Pero puedes actuar en el siguiente turno.
+#-------------------------------
+[ERUPTION]
+#Estallido
+ContestType = BEAUTY
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[MINDBLOWN]
+#Cabeza Sorpresa
+ContestType = SMART
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[SHELLTRAP]
+#Coraza Trampa
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[BLUEFLARE]
+#Llama Azul
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[BURNUP]
+#Llama Final
+ContestType = SMART
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[OVERHEAT]
+#Sofoco
+ContestType = BEAUTY
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[FLAREBLITZ]
+#Envite Ígneo
+ContestType = COOL
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[PYROBALL]
+#Balón Ígneo
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[FIREBLAST]
+#Llamarada
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnCrowdExcitementHigher
+ContestFlags = 
+ContestDescription = Funciona mejor cuanto más emocionada esté la audiencia.
+#-------------------------------
+[FUSIONFLARE]
+#Llama Fusión
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesBetterLaterPerformed
+ContestFlags = 
+ContestDescription = La exhibición funciona mejor cuanto más tarde se realiza por turno.
+#-------------------------------
+[INFERNO]
+#Infierno
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[MAGMASTORM]
+#Lluvia Ígnea
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[SACREDFIRE]
+#Fuego Sagrado
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[SEARINGSHOT]
+#Bomba Ígnea
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[HEATWAVE]
+#Onda Ígnea
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 2
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[FLAMETHROWER]
+#Lanzallamas
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[BLAZEKICK]
+#Patada Ígnea
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[FIERYDANCE]
+#Danza Llama
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnUsersSpirit
+ContestFlags = 
+ContestDescription = Funciona bien si el espíritu del Pokémon es bueno.
+#-------------------------------
+[FIRELASH]
+#Látigo Ígneo
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[FIREPLEDGE]
+#Voto Fuego
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AlwaysExcitesCrowd
+ContestFlags = 
+ContestDescription = Emociona al público en cualquier tipo de concurso.
+#-------------------------------
+[LAVAPLUME]
+#Humareda
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[FIREPUNCH]
+#Puño Fuego
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[MYSTICALFIRE]
+#Llama Embrujada
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[BURNINGJEALOUSY]
+#Envidia ardiente
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[FLAMEBURST]
+#Pirotecnia
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = StealsAttention
+ContestFlags = 
+ContestDescription = Hace que el juez espere poco de los demás concursantes.
+#-------------------------------
+[FIREFANG]
+#Colmillo Ígneo
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[FLAMEWHEEL]
+#Rueda Fuego
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo move.
+#-------------------------------
+[INCINERATE]
+#Calcinación
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[FLAMECHARGE]
+#Nitrocarga
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnUsersSpirit
+ContestFlags = 
+ContestDescription = Funciona bien si el espíritu del Pokémon es bueno.
+#-------------------------------
+[EMBER]
+#Ascuas
+ContestType = CUTE
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[FIRESPIN]
+#Giro Fuego
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[HEATCRASH]
+#Golpe Calor
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[SUNNYDAY]
+#Día Soleado
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnCrowdExcitementHigher
+ContestFlags = 
+ContestDescription = Funciona mejor cuanto más emocionada esté la audiencia.
+#-------------------------------
+[WILLOWISP]
+#Fuego Fatuo
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[SKYATTACK]
+#Ataque Aéreo
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoesGreatIfOtherInFrontDidPoor
+ContestFlags = 
+ContestDescription = Funciona mejor si la última exhibición tuvo malos resultados.
+#-------------------------------
+[BRAVEBIRD]
+#Pájaro Osado
+ContestType = COOL
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[DRAGONASCENT]
+#Ascenso Draco
+ContestType = BEAUTY
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[HURRICANE]
+#Vendaval
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[AEROBLAST]
+#Aerochorro
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DependsOnAppealInFront
+ContestFlags = 
+ContestDescription = Es afectado por qué tan bien es la siguiente exhibición.
+#-------------------------------
+[BEAKBLAST]
+#Pico Cañón
+ContestType = SMART
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima apelación.
+#-------------------------------
+[FLY]
+#Vuelo
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[BOUNCE]
+#Bote
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[DRILLPECK]
+#Pico Taladro
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[OBLIVIONWING]
+#Ala Mortífera
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[AIRSLASH]
+#Tajo Aéreo
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[CHATTER]
+#Cháchara
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[AERIALACE]
+#Golpe Aéreo
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[AIRCUTTER]
+#Aire Afilado
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[PLUCK]
+#Picoteo
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[SKYDROP]
+#Caída Libre
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[WINGATTACK]
+#Ataque Ala
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[ACROBATICS]
+#Acróbata
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnUsersSpirit
+ContestFlags = 
+ContestDescription = Funciona bien si el espíritu del Pokémon es bueno.
+#-------------------------------
+[DUALWINGBEAT]
+#Ala Bis
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[GUST]
+#Tornado
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = ScrambleOrderNextTurn
+ContestFlags = 
+ContestDescription = Cambia el orden de las exhibiciones en el siguiente turno.
+#-------------------------------
+[PECK]
+#Picotazo
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[DEFOG]
+#Despejar
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[FEATHERDANCE]
+#Danza Pluma
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[MIRRORMOVE]
+#Espejo
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[ROOST]
+#Respiro
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[TAILWIND]
+#Viento Afín
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[ASTRALBARRAGE]
+#Orbes Espectro
+ContestType = COOL
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[SHADOWFORCE]
+#Golpe Umbrío
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[POLTERGEIST]
+#Poltergeist
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[MOONGEISTBEAM]
+#Rayo Umbrío
+ContestType = BEAUTY
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[PHANTOMFORCE]
+#Golpe Fantasma
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[SPECTRALTHIEF]
+#Robasombra
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[SHADOWBONE]
+#Hueso Sombrío
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[SHADOWBALL]
+#Bola Sombra
+ContestType = SMART
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[SPIRITSHACKLE]
+#Puntada Sombría
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[SHADOWCLAW]
+#Garra Umbría
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[HEX]
+#Infortunio
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[OMINOUSWIND]
+#Viento Aciago
+ContestType = SMART
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima apelación.
+#-------------------------------
+[SHADOWPUNCH]
+#Puño Sombra
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[SHADOWSNEAK]
+#Sombra Vil
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[ASTONISH]
+#Impresionar
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[LICK]
+#Lengüetazo
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[NIGHTSHADE]
+#Tinieblas
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[CONFUSERAY]
+#Rayo Confuso
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = ScrambleOrderNextTurn
+ContestFlags = 
+ContestDescription = Cambia el orden de las exhibiciones en el siguiente turno.
+#-------------------------------
+[CURSE]
+#Maldición
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveLater
+ContestFlags = 
+ContestDescription = Hace que el Pokémon se exhiba más tarde en el siguiente turno.
+#-------------------------------
+[DESTINYBOND]
+#Mismo Destino
+ContestType = SMART
+ContestHearts = 8
+ContestJam = 0
+ContestFunctionCode = NoMoreMoves
+ContestFlags = 
+ContestDescription = Tiene un gran atractivo, pero impide que el usuario realice más movimientos en el concurso.
+#-------------------------------
+[GRUDGE]
+#Rabia
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 4
+ContestFunctionCode = StartleOthersMissNextTurn
+ContestFlags = 
+ContestDescription = Asusta a todos los demás Pokémon. Pero puedes actuar en el siguiente turno.
+#-------------------------------
+[NIGHTMARE]
+#Pesadilla
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[SPITE]
+#Rencor
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[TRICKORTREAT]
+#Halloween
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[FRENZYPLANT]
+#Planta Feroz
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 4
+ContestFunctionCode = StartleOthersMissNextTurn
+ContestFlags = 
+ContestDescription = Asusta a todos los demás Pokémon. Pero puedes actuar en el siguiente turno.
+#-------------------------------
+[LEAFSTORM]
+#Lluevehojas
+ContestType = BEAUTY
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[SOLARBLADE]
+#Cuchilla Solar
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[PETALDANCE]
+#Danza Pétalo
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 4
+ContestFunctionCode = StartleOthersMissNextTurn
+ContestFlags = 
+ContestDescription = Asusta a todos los demás Pokémon. Pero puedes actuar en el siguiente turno.
+#-------------------------------
+[POWERWHIP]
+#Latigazo
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnCrowdExcitementHigher
+ContestFlags = 
+ContestDescription = Funciona mejor cuanto más emocionada esté la audiencia.
+#-------------------------------
+[SEEDFLARE]
+#Fulgor Semilla
+ContestType = BEAUTY
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[SOLARBEAM]
+#Rayo Solar
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[WOODHAMMER]
+#Mazazo
+ContestType = TOUGH
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[ENERGYBALL]
+#Energibola
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[LEAFBLADE]
+#Hoja Aguda
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[PETALBLIZZARD]
+#Tormenta Floral
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 2
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[APPLEACID]
+#Ácido Málico
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[DRUMBEATING]
+#Batería Asalto
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[GRASSPLEDGE]
+#Voto Planta
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AlwaysExcitesCrowd
+ContestFlags = 
+ContestDescription = Emociona al público en cualquier tipo de concurso.
+#-------------------------------
+[GRAVAPPLE]
+#Fuerza G
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoesGreatIfOtherInFrontDidGreat
+ContestFlags = 
+ContestDescription = Funciona mejor si la última exhibición tuvo buenos resultados.
+#-------------------------------
+[SEEDBOMB]
+#Bomba Germen
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[GIGADRAIN]
+#Gigadrenado
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[HORNLEECH]
+#Asta Drenaje
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[GRASSYGLIDE]
+#Fitoimpulso
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[TROPKICK]
+#Patada Tropical
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[LEAFTORNADO]
+#Ciclón de Hojas
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[MAGICALLEAF]
+#Hoja Mágica
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[NEEDLEARM]
+#Brazo Pincho
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[RAZORLEAF]
+#Hoja Afilada
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoesGreatIfOtherInFrontDidPoor
+ContestFlags = 
+ContestDescription = Funciona mejor si la última exhibición tuvo malos resultados.
+#-------------------------------
+[VINEWHIP]
+#Látigo Cepa
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[BRANCHPOKE]
+#Punzada Rama
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[LEAFAGE]
+#Follaje
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[MEGADRAIN]
+#Megaagotar
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[SNAPTRAP]
+#Cepo
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[BULLETSEED]
+#Semilladora
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[ABSORB]
+#Absorber
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[GRASSKNOT]
+#Hierba Lazo
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesBetterLaterPerformed
+ContestFlags = 
+ContestDescription = La exhibición funciona mejor cuanto más tarde se realiza por turno.
+#-------------------------------
+[AROMATHERAPY]
+#Aromaterapia
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[COTTONGUARD]
+#Rizo Algodón
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[COTTONSPORE]
+#Esporagodón
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[FORESTSCURSE]
+#Condena Silvana
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[GRASSWHISTLE]
+#Silbato
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[GRASSYTERRAIN]
+#Campo de Hierba
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[INGRAIN]
+#Arraigo
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[JUNGLEHEALING]
+#Cura Selvática
+ContestType = SMART
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[LEECHSEED]
+#Drenadoras
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 2
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[SLEEPPOWDER]
+#Somnífero
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[SPIKYSHIELD]
+#Barrera Espinosa
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[SPORE]
+#Espora
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[STRENGTHSAP]
+#Absorbefuerza
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[STUNSPORE]
+#Paralizador
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersGoodAppeals
+ContestFlags = 
+ContestDescription = Asusta a todos los Pokémon, más aún a los que hicieron buenas exhibiciones.
+#-------------------------------
+[SYNTHESIS]
+#Síntesis
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[WORRYSEED]
+#Abatidoras
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[PRECIPICEBLADES]
+#Filo del Abismo
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[EARTHQUAKE]
+#Terremoto
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[HIGHHORSEPOWER]
+#Fuerza Equina
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[EARTHPOWER]
+#Tierra Viva
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[LANDSWRATH]
+#Fuerza Telúrica
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 2
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[THOUSANDARROWS]
+#Mil Flechas
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[THOUSANDWAVES]
+#Mil Temblores
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[DIG]
+#Excavar
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[DRILLRUN]
+#Taladradora
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoesGreatIfOtherInFrontDidGreat
+ContestFlags = 
+ContestDescription = Funciona mejor si la última exhibición tuvo buenos resultados.
+#-------------------------------
+[STOMPINGTANTRUM]
+#Pataleta
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[SCORCHINGSANDS]
+#Arenas Ardientes
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[BONECLUB]
+#Hueso Palo
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[MUDBOMB]
+#Bomba Fango
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[BULLDOZE]
+#Terratemblor
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 2
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[MUDSHOT]
+#Disparo Lodo
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[BONEMERANG]
+#Huesomerang
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[SANDTOMB]
+#Bucle Arena
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[BONERUSH]
+#Ataque Óseo
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[MUDSLAP]
+#Bofetón Lodo
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[FISSURE]
+#Fisura
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersGoodAppeals
+ContestFlags = 
+ContestDescription = Asusta a todos los Pokémon, más aún a los que hicieron buenas exhibiciones.
+#-------------------------------
+[MAGNITUDE]
+#Magnitud
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnCrowdExcitementHigher
+ContestFlags = 
+ContestDescription = Funciona mejor cuanto más emocionada esté la audiencia.
+#-------------------------------
+[MUDSPORT]
+#Chapoteo Lodo
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AlwaysExcitesCrowd
+ContestFlags = 
+ContestDescription = Emociona al público en cualquier tipo de concurso.
+#-------------------------------
+[ROTOTILLER]
+#Fertilizante
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[SANDATTACK]
+#Ataque Arena
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[SHOREUP]
+#Recogearena
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[SPIKES]
+#Púas
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[FREEZESHOCK]
+#Rayo Gélido
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoesGreatIfOtherInFrontDidGreat
+ContestFlags = 
+ContestDescription = Funciona mejor si la última exhibición tuvo buenos resultados.
+#-------------------------------
+[ICEBURN]
+#Llama Gélida
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoesGreatIfOtherInFrontDidPoor
+ContestFlags = 
+ContestDescription = Funciona mejor si la última exhibición tuvo malos resultados.
+#-------------------------------
+[GLACIALLANCE]
+#Lanza Glacial
+ContestType = BEAUTY
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[BLIZZARD]
+#Ventisca
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[ICEHAMMER]
+#Martillo Hielo
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[ICEBEAM]
+#Rayo Hielo
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[ICICLECRASH]
+#Chuzos
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[ICEPUNCH]
+#Puño Hielo
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[FREEZEDRY]
+#Liofilización
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[AURORABEAM]
+#Rayo Aurora
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[GLACIATE]
+#Mundo Gélido
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[ICEFANG]
+#Colmillo Hielo
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[AVALANCHE]
+#Alud
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[FROSTBREATH]
+#Vaho Gélido
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[ICYWIND]
+#Viento Hielo
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[ICESHARD]
+#Esquirla Helada
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[POWDERSNOW]
+#Nieve Polvo
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[ICEBALL]
+#Bola Hielo
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[ICICLESPEAR]
+#Carámbano
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[TRIPLEAXEL]
+#Triple Axel
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[SHEERCOLD]
+#Frío Polar
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[AURORAVEIL]
+#Velo Aurora
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[HAIL]
+#Granizo
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[HAZE]
+#Niebla
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[MIST]
+#Neblina
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[EXPLOSION]
+#Explosion
+ContestType = BEAUTY
+ContestHearts = 8
+ContestJam = 0
+ContestFunctionCode = NoMoreMoves
+ContestFlags = 
+ContestDescription = Tiene un gran atractivo, pero impide que el usuario realice más movimientos en el concurso.
+#-------------------------------
+[SELFDESTRUCT]
+#Autodestrucción
+ContestType = BEAUTY
+ContestHearts = 8
+ContestJam = 0
+ContestFunctionCode = NoMoreMoves
+ContestFlags = 
+ContestDescription = Tiene un gran atractivo, pero impide que el usuario realice más movimientos en el concurso.
+#-------------------------------
+[GIGAIMPACT]
+#Gigaimpacto
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 4
+ContestFunctionCode = StartleOthersMissNextTurn
+ContestFlags = 
+ContestDescription = Asusta a todos los demás Pokémon. Pero puedes actuar en el siguiente turno.
+#-------------------------------
+[HYPERBEAM]
+#Hiperrayo
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 4
+ContestFunctionCode = StartleOthersMissNextTurn
+ContestFlags = 
+ContestDescription = Asusta a todos los demás Pokémon. Pero puedes actuar en el siguiente turno.
+#-------------------------------
+[BOOMBURST]
+#Estruendo
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 4
+ContestFunctionCode = StartleOthersMissNextTurn
+ContestFlags = 
+ContestDescription = Asusta a todos los demás Pokémon. Pero puedes actuar en el siguiente turno.
+#-------------------------------
+[LASTRESORT]
+#Última Baza
+ContestType = CUTE
+ContestHearts = 8
+ContestJam = 0
+ContestFunctionCode = NoMoreMoves
+ContestFlags = 
+ContestDescription = Tiene un gran atractivo, pero impide que el usuario realice más movimientos en el concurso.
+#-------------------------------
+[SKULLBASH]
+#Cabezazo
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[DOUBLEEDGE]
+#Doble Filo
+ContestType = TOUGH
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[HEADCHARGE]
+#Ariete
+ContestType = TOUGH
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[MEGAKICK]
+#Megapatada
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnCrowdExcitementHigher
+ContestFlags = 
+ContestDescription = Funciona mejor cuanto más emocionada esté la audiencia.
+#-------------------------------
+[MULTIATTACK]
+#Multiataque
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[TECHNOBLAST]
+#Tecno Shock
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnUsersSpirit
+ContestFlags = 
+ContestDescription = Funciona bien si el espíritu del Pokémon es bueno.
+#-------------------------------
+[THRASH]
+#Saña
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 4
+ContestFunctionCode = StartleOthersMissNextTurn
+ContestFlags = 
+ContestDescription = Asusta a todos los demás Pokémon. Pero puedes actuar en el siguiente turno.
+#-------------------------------
+[EGGBOMB]
+#Bomba Huevo
+ContestType = CUTE
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[JUDGMENT]
+#Sentencia
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[HYPERVOICE]
+#Vozarrón
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[REVELATIONDANCE]
+#Danza Despertar
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[ROCKCLIMB]
+#Treparrocas
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = StealsAttention
+ContestFlags = 
+ContestDescription = Hace que el juez espere poco de los demás concursantes.
+#-------------------------------
+[TAKEDOWN]
+#Derribo
+ContestType = TOUGH
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[UPROAR]
+#Alboroto
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[BODYSLAM]
+#Golpe Cuerpo
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[EXTREMESPEED]
+#Velocidad Extrema
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[HYPERFANG]
+#Hipercolmillo
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[MEGAPUNCH]
+#Megapuño
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[RAZORWIND]
+#Viento Cortante
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoesGreatIfOtherInFrontDidPoor
+ContestFlags = 
+ContestDescription = Funciona mejor si la última exhibición tuvo malos resultados.
+#-------------------------------
+[SLAM]
+#Atizar
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[STRENGTH]
+#Fuerza
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[TRIATTACK]
+#Triataque
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 2
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[CRUSHCLAW]
+#Garra Brutal
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[RELICSONG]
+#Canto Arcaico
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[CHIPAWAY]
+#Guardia Baja
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AlwaysExcitesCrowd
+ContestFlags = 
+ContestDescription = Emociona al público en cualquier tipo de concurso.
+#-------------------------------
+[DIZZYPUNCH]
+#Puño Mareo
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[FACADE]
+#Imagen
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[HEADBUTT]
+#Golpe Cabeza
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[RETALIATE]
+#Represalia
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoesGreatIfOtherInFrontDidPoor
+ContestFlags = 
+ContestDescription = Funciona mejor si la última exhibición tuvo malos resultados.
+#-------------------------------
+[SECRETPOWER]
+#Daño Secreto
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnUsersSpirit
+ContestFlags = 
+ContestDescription = Funciona bien si el espíritu del Pokémon es bueno.
+#-------------------------------
+[SLASH]
+#Cuchillada
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DependsOnAppealInFront
+ContestFlags = 
+ContestDescription = Afectado por lo bien que fue el movimiento del Pokémon anterior.
+#-------------------------------
+[SMELLINGSALTS]
+#Estímulo
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DependsOnAppealInFront
+ContestFlags = 
+ContestDescription = Afectado por lo bien que fue el movimiento del Pokémon anterior.
+#-------------------------------
+[HORNATTACK]
+#Cornada
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[STOMP]
+#Pisotón
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[COVET]
+#Antojo
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[HIDDENPOWER]
+#Poder Oculto
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[ROUND]
+#Canon
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[SWIFT]
+#Meteoros
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[VISEGRIP]
+#Agarre
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[CUT]
+#Corte
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersGoodAppeals
+ContestFlags = 
+ContestDescription = Asusta a todos los Pokémon, más aún a los que hicieron buenas exhibiciones.
+#-------------------------------
+[RAPIDSPIN]
+#Giro Rápido
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[SNORE]
+#Ronquido
+ContestType = CUTE
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[TERRAINPULSE]
+#Pulso de Campo
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AlwaysExcitesCrowd
+ContestFlags = 
+ContestDescription = Emociona al público en cualquier tipo de concurso.
+#-------------------------------
+[WEATHERBALL]
+#Meteorobola
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[ECHOEDVOICE]
+#Eco Voz
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[FAKEOUT]
+#Sorpresa
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[FALSESWIPE]
+#Falso Tortazo
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[HOLDBACK]
+#Clemencia
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[PAYDAY]
+#Día de Pago
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[POUND]
+#Destructor
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[QUICKATTACK]
+#Ataque Rápido
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[SCRATCH]
+#Arañazo
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[TACKLE]
+#Placaje
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[DOUBLEHIT]
+#Doble Golpe
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[FEINT]
+#Amago
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[TAILSLAP]
+#Plumerazo
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[RAGE]
+#Furia
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[SPIKECANNON]
+#Clavo Cañón
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[COMETPUNCH]
+#Puño Cometa
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[FURYSWIPES]
+#Golpes Furia
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[BARRAGE]
+#Bombardeo
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[BIND]
+#Atadura
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[DOUBLESLAP]
+#Doble Bofetón
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[FURYATTACK]
+#Ataque Furia
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[WRAP]
+#Constricción
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[CONSTRICT]
+#Restricción
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[BIDE]
+#Venganza
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveLater
+ContestFlags = 
+ContestDescription = Hace que el Pokémon se exhiba más tarde en el siguiente turno.
+#-------------------------------
+[CRUSHGRIP]
+#Agarrón
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[ENDEAVOR]
+#Esfuerzo
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[FLAIL]
+#Azote
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesBetterLaterPerformed
+ContestFlags = 
+ContestDescription = La exhibición funciona mejor cuanto más tarde se realiza por turno.
+#-------------------------------
+[FRUSTRATION]
+#Frustración
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = MaxesCrowdExcitement
+ContestFlags = 
+ContestDescription = Gets the audience going!
+#-------------------------------
+[GUILLOTINE]
+#Guillotina
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersGoodAppeals
+ContestFlags = 
+ContestDescription = Asusta a todos los Pokémon, más aún a los que hicieron buenas exhibiciones.
+#-------------------------------
+[HORNDRILL]
+#Perforador
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersGoodAppeals
+ContestFlags = 
+ContestDescription = Asusta a todos los Pokémon, más aún a los que hicieron buenas exhibiciones.
+#-------------------------------
+[NATURALGIFT]
+#Don Natural
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnCrowdExcitementHigher
+ContestFlags = 
+ContestDescription = Funciona mejor cuanto más emocionada esté la audiencia.
+#-------------------------------
+[PRESENT]
+#Presente
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[RETURN]
+#Retribución
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = MaxesCrowdExcitement
+ContestFlags = 
+ContestDescription = Gets the audience going!
+#-------------------------------
+[SONICBOOM]
+#Bomba Sónica
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[SPITUP]
+#Escupir
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnUsersSpirit
+ContestFlags = 
+ContestDescription = Funciona bien si el espíritu del Pokémon es bueno.
+#-------------------------------
+[SUPERFANG]
+#Superdiente
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersGoodAppeals
+ContestFlags = 
+ContestDescription = Asusta a todos los Pokémon, más aún a los que hicieron buenas exhibiciones.
+#-------------------------------
+[TRUMPCARD]
+#As Oculto
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnRoundNumberHigher
+ContestFlags = 
+ContestDescription = Appeal is better the later the round.
+#-------------------------------
+[WRINGOUT]
+#Estrujón
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[ACUPRESSURE]
+#Acupresión
+ContestType = COOL
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima apelación.
+#-------------------------------
+[AFTERYOU]
+#Cede Paso
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveLater
+ContestFlags = 
+ContestDescription = Hace que el Pokémon se exhiba más tarde en el siguiente turno.
+#-------------------------------
+[ASSIST]
+#Ayuda
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[ATTRACT]
+#Atracción
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[BATONPASS]
+#Relevo
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnUsersSpirit
+ContestFlags = 
+ContestDescription = Funciona bien si el espíritu del Pokémon es bueno.
+#-------------------------------
+[BELLYDRUM]
+#Tambor
+ContestType = CUTE
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[BESTOW]
+#Ofrenda
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = EqualsCrowdExcitement
+ContestFlags = 
+ContestDescription = El atractivo depende del entusiasmo del público.
+#-------------------------------
+[BLOCK]
+#Bloqueo
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[CAMOUFLAGE]
+#Camuflaje
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoesGreatIfOtherInFrontDidPoor
+ContestFlags = 
+ContestDescription = Funciona mejor si la última exhibición tuvo malos resultados.
+#-------------------------------
+[CAPTIVATE]
+#Seducción
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[CELEBRATE]
+#Celebración
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[CONFIDE]
+#Confidencia
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[CONVERSION]
+#Conversión
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[CONVERSION2]
+#Conversión2
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[COPYCAT]
+#Copión
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[COURTCHANGE]
+#Cambio de Cancha
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[DEFENSECURL]
+#Rizo Defensa
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[DISABLE]
+#Anulación
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[DOUBLETEAM]
+#Doble Equipo
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[ENCORE]
+#Otra Vez
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[ENDURE]
+#Aguante
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[ENTRAINMENT]
+#Danza Amiga
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[FLASH]
+#Destello
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = StealsAttention
+ContestFlags = 
+ContestDescription = Hace que el juez espere poco de los demás concursantes.
+#-------------------------------
+[FOCUSENERGY]
+#Foco Energía
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[FOLLOWME]
+#Señuelo
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[FORESIGHT]
+#Profecía
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[GLARE]
+#Deslumbrar
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[GROWL]
+#Gruñido
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[GROWTH]
+#Desarrollo
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[HAPPYHOUR]
+#Paga Extra
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[HARDEN]
+#Fortaleza
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[HEALBELL]
+#Cascabel Cura
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[HELPINGHAND]
+#Refuerzo
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[HOLDHANDS]
+#Manos Juntas
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[HOWL]
+#Aullido
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[LASERFOCUS]
+#Aguzar
+ContestType = SMART
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima exhibición.
+#-------------------------------
+[LEER]
+#Malicioso
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[LOCKON]
+#Fijar Blanco
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[LOVELYKISS]
+#Beso Amoroso
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[LUCKYCHANT]
+#Conjuro
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[MEFIRST]
+#Yo Primero
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[MEANLOOK]
+#Mal de Ojo
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[METRONOME]
+#Metrónomo
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[MILKDRINK]
+#Batido
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[MIMIC]
+#Mimético
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[MINDREADER]
+#Telépata
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[MINIMIZE]
+#Reducción
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[MORNINGSUN]
+#Sol Matinal
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[NATUREPOWER]
+#Adaptación
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnCrowdExcitementHigher
+ContestFlags = 
+ContestDescription = Funciona mejor cuanto más emocionada esté la audiencia.
+#-------------------------------
+[NOBLEROAR]
+#Rugido de Guerra
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[ODORSLEUTH]
+#Rastreo
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[PAINSPLIT]
+#Divide Dolor
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[PERISHSONG]
+#Canto Mortal
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersGoodAppeals
+ContestFlags = 
+ContestDescription = Asusta a todos los Pokémon, más aún a los que hicieron buenas exhibiciones.
+#-------------------------------
+[PLAYNICE]
+#Camaradería
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnCrowdExcitementHigher
+ContestFlags = 
+ContestDescription = Funciona mejor cuanto más emocionada esté la audiencia.
+#-------------------------------
+[PROTECT]
+#Protección
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[PSYCHUP]
+#Autosugestión
+ContestType = SMART
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima exhibición.
+#-------------------------------
+[RECOVER]
+#Recuperación
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[RECYCLE]
+#Reciclaje
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[REFLECTTYPE]
+#Clonatipo
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[REFRESH]
+#Alivio
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[ROAR]
+#Rugido
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveLater
+ContestFlags = 
+ContestDescription = Hace que el Pokémon se exhiba más tarde en el siguiente turno.
+#-------------------------------
+[SAFEGUARD]
+#Velo Sagrado
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[SCARYFACE]
+#Cara Susto
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[SCREECH]
+#Chirrido
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[SHARPEN]
+#Afilar
+ContestType = CUTE
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima exhibición.
+#-------------------------------
+[SHELLSMASH]
+#Rompecoraza
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[SIMPLEBEAM]
+#Onda Simple
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[SING]
+#Canto
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[SKETCH]
+#Esquema
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[SLACKOFF]
+#Relajo
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesBetterLaterPerformed
+ContestFlags = 
+ContestDescription = La exhibición funciona mejor cuanto más tarde se realiza por turno.
+#-------------------------------
+[SLEEPTALK]
+#Sonámbulo
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[SMOKESCREEN]
+#Pantalla de Humo
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[SOFTBOILED]
+#Ovocuración
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[SPLASH]
+#Salpicadura
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[SPOTLIGHT]
+#Foco
+ContestType = BEAUTY
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima exhibición.
+#-------------------------------
+[STOCKPILE]
+#Reserva
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[STUFFCHEEKS]
+#Atiborramiento
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[SUBSTITUTE]
+#Sustituto
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[SUPERSONIC]
+#Supersónico
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = StealsAttention
+ContestFlags = 
+ContestDescription = Hace que el juez espere poco de los demás concursantes.
+#-------------------------------
+[SWAGGER]
+#Contoneo
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[SWALLOW]
+#Tragar
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[SWEETSCENT]
+#Dulce Aroma
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[SWORDSDANCE]
+#Danza Espada
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[TAILWHIP]
+#Látigo
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[TEARFULLOOK]
+#Ojos Llorosos
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[TEATIME]
+#Hora del Té
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = StealsAttention
+ContestFlags = 
+ContestDescription = Hace que el juez espere poco de los demás concursantes.
+#-------------------------------
+[TEETERDANCE]
+#Danza Caos
+ContestType = CUTE
+ContestHearts = 4
+ContestJam = 4
+ContestFunctionCode = StartleOthersMissNextTurn
+ContestFlags = 
+ContestDescription = Asusta a todos los demás Pokémon. Pero puedes actuar en el siguiente turno.
+#-------------------------------
+[TICKLE]
+#Cosquillas
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[TRANSFORM]
+#Transformación
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[WHIRLWIND]
+#Remolino
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = ScrambleOrderNextTurn
+ContestFlags = 
+ContestDescription = Cambia el orden de las exhibiciones en el siguiente turno.
+#-------------------------------
+[WISH]
+#Deseo
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[WORKUP]
+#Avivar
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[YAWN]
+#Bostezo
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[BELCH]
+#Eructo
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnUsersSpirit
+ContestFlags = 
+ContestDescription = Funciona bien si el espíritu del Pokémon es bueno.
+#-------------------------------
+[GUNKSHOT]
+#Lanzamugre
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[SLUDGEWAVE]
+#Onda Tóxica
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[SHELLSIDEARM]
+#Moluscañón
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[SLUDGEBOMB]
+#Bomba Lodo
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[POISONJAB]
+#Puya Nociva
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[CROSSPOISON]
+#Veneno X
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[SLUDGE]
+#Residuos
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[VENOSHOCK]
+#Carga Tóxica
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[CLEARSMOG]
+#Niebla Clara
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[POISONFANG]
+#Colmillo Veneno
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[POISONTAIL]
+#Cola Veneno
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[ACID]
+#Ácido
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[ACIDSPRAY]
+#Bomba Ácida
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatUsedSameType
+ContestFlags = 
+ContestDescription = Asusta a Pokémon que usaron un movimiento del mismo tipo.
+#-------------------------------
+[SMOG]
+#Polución
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[POISONSTING]
+#Picotazo Veneno
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[ACIDARMOR]
+#Armadura Ácida
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[BANEFULBUNKER]
+#Búnker
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[COIL]
+#Enrosque
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[CORROSIVEGAS]
+#Gas Corrosivo
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[GASTROACID]
+#Bilis
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[POISONGAS]
+#Gas Venenoso
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[POISONPOWDER]
+#Polvo Veneno
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[PURIFY]
+#Purificación
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[TOXIC]
+#Tóxico
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[TOXICSPIKES]
+#Púas Tóxicas
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[TOXICTHREAD]
+#Hilo Venenoso
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[VENOMDRENCH]
+#Trampa Venenosa
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[PRISMATICLASER]
+#Láser Prisma
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[PSYCHOBOOST]
+#Psicoataque
+ContestType = SMART
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[FUTURESIGHT]
+#Premonición
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[SYNCHRONOISE]
+#Sincrorruido
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[DREAMEATER]
+#Comesueños
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 2
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[PHOTONGEYSER]
+#Géiser Fotónico
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[PSYSTRIKE]
+#Onda Mental
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[FREEZINGGLARE]
+#Mirada Heladora
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[PSYCHIC]
+#Psíquico
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[PSYCHICFANGS]
+#Psicocolmillo
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[EERIESPELL]
+#Conjuro Funesto
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 2
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[EXPANDINGFORCE]
+#Vasta Fuerza
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[EXTRASENSORY]
+#Paranormal
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[HYPERSPACEHOLE]
+#Cerco Dimensión
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[PSYSHOCK]
+#Psicocarga
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 4
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[ZENHEADBUTT]
+#Cabezazo Zen
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[LUSTERPURGE]
+#Resplandor
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[MISTBALL]
+#Bola Neblina
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[PSYCHOCUT]
+#Psicocorte
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[PSYBEAM]
+#Psicorrayo
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = ScrambleOrderNextTurn
+ContestFlags = 
+ContestDescription = Cambia el orden de las exhibiciones en el siguiente turno.
+#-------------------------------
+[HEARTSTAMP]
+#Arrumaco
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[CONFUSION]
+#Confusión
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[STOREDPOWER]
+#Poder Reserva
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnUsersSpirit
+ContestFlags = 
+ContestDescription = Funciona bien si el espíritu del Pokémon es bueno.
+#-------------------------------
+[MIRRORCOAT]
+#Manto Espejo
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[PSYWAVE]
+#Psicoonda
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOthersGoodAppeals
+ContestFlags = 
+ContestDescription = Asusta a todos los Pokémon, más aún a los que hicieron buenas exhibiciones.
+#-------------------------------
+[AGILITY]
+#Agilidad
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[ALLYSWITCH]
+#Cambio de Banda
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = ScrambleOrderNextTurn
+ContestFlags = 
+ContestDescription = Cambia el orden de las exhibiciones en el siguiente turno.
+#-------------------------------
+[AMNESIA]
+#Amnesia
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[BARRIER]
+#Barrera
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[CALMMIND]
+#Paz Mental
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[COSMICPOWER]
+#Masa Cósmica
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[GRAVITY]
+#Gravedad
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[GUARDSPLIT]
+#Isoguardia
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[GUARDSWAP]
+#Cambiadefensa
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[HEALBLOCK]
+#Anticura
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[HEALPULSE]
+#Pulso Cura
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AlwaysExcitesCrowd
+ContestFlags = 
+ContestDescription = Emociona al público en cualquier tipo de concurso.
+#-------------------------------
+[HEALINGWISH]
+#Deseo Cura
+ContestType = BEAUTY
+ContestHearts = 8
+ContestJam = 0
+ContestFunctionCode = NoMoreMoves
+ContestFlags = 
+ContestDescription = Tiene un gran atractivo, pero impide que el usuario realice más movimientos en el concurso.
+#-------------------------------
+[HEARTSWAP]
+#Cambiaalmas
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[HYPNOSIS]
+#Hipnosis
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[IMPRISON]
+#Sellar
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[INSTRUCT]
+#Mandato
+ContestType = SMART
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima exhibición.
+#-------------------------------
+[KINESIS]
+#Kinético
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[LIGHTSCREEN]
+#Pantalla de Luz
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[LUNARDANCE]
+#Danza Lunar
+ContestType = BEAUTY
+ContestHearts = 8
+ContestJam = 0
+ContestFunctionCode = NoMoreMoves
+ContestFlags = 
+ContestDescription = Tiene un gran atractivo, pero impide que el usuario realice más movimientos en el concurso.
+#-------------------------------
+[MAGICCOAT]
+#Capa Mágica
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[MAGICPOWDER]
+#Polvo Mágico
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[MAGICROOM]
+#Zona Mágica
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[MEDITATE]
+#Meditación
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[MIRACLEEYE]
+#Gran Ojo
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[POWERSPLIT]
+#Isofuerza
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[POWERSWAP]
+#Cambiafuerza
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[POWERTRICK]
+#Truco Fuerza
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DependsOnCrowdExcitementLower
+ContestFlags = 
+ContestDescription = Works better the less the audience is excited.
+#-------------------------------
+[PSYCHICTERRAIN]
+#Campo Psíquico
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[PSYCHOSHIFT]
+#Psicocambio
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[REFLECT]
+#Reflejo
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[REST]
+#Descanso
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[ROLEPLAY]
+#Imitación
+ContestType = CUTE
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[SKILLSWAP]
+#Intercambio
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesSameAppealValueAsOtherInFront
+ContestFlags = 
+ContestDescription = Gana la misma cantidad de atractivo que el Pokémon anterior.
+#-------------------------------
+[SPEEDSWAP]
+#Cambiavelocidad
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[TELEKINESIS]
+#Telequinesis
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[TELEPORT]
+#Teletransporte
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[TRICK]
+#Truco
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[TRICKROOM]
+#Espacio Raro
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = ScrambleOrderNextTurn
+ContestFlags = 
+ContestDescription = Cambia el orden de las exhibiciones en el siguiente turno.
+#-------------------------------
+[WONDERROOM]
+#Zona Extraña
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = ScrambleOrderNextTurn
+ContestFlags = 
+ContestDescription = Cambia el orden de las exhibiciones en el siguiente turno.
+#-------------------------------
+[HEADSMASH]
+#Testarazo
+ContestType = TOUGH
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[ROCKWRECKER]
+#Romperrocas
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 4
+ContestFunctionCode = StartleOthersMissNextTurn
+ContestFlags = 
+ContestDescription = Asusta a todos los demás Pokémon. Pero puedes actuar en el siguiente turno.
+#-------------------------------
+[METEORBEAM]
+#Rayo Meteórico
+ContestType = TOUGH
+ContestHearts = 8
+ContestJam = 0
+ContestFunctionCode = NoMoreMoves
+ContestFlags = 
+ContestDescription = Tiene un gran atractivo, pero impide que el usuario realice más movimientos en el concurso.
+#-------------------------------
+[DIAMONDSTORM]
+#Torm. de Diamantes
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[STONEEDGE]
+#Roca Afilada
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DependsOnAppealInFront
+ContestFlags = 
+ContestDescription = Afectado por lo bien que fue el movimiento del Pokémon anterior.
+#-------------------------------
+[POWERGEM]
+#Joya de Luz
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[ROCKSLIDE]
+#Avalancha
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[ANCIENTPOWER]
+#Poder Pasado
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[ROCKTOMB]
+#Tumba Rocas
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = StealsAttention
+ContestFlags = 
+ContestDescription = Hace que el juez espere poco de los demás concursantes.
+#-------------------------------
+[ROCKTHROW]
+#Lanzarrocas
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[SMACKDOWN]
+#Antiaéreo
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[ACCELEROCK]
+#Roca Veloz
+ContestType = SMART
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[ROLLOUT]
+#Rodar
+ContestType = CUTE
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[ROCKBLAST]
+#Pedrada
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AppealIsRandom
+ContestFlags = 
+ContestDescription = Aumenta el atractivo del Pokémon de forma variable.
+#-------------------------------
+[ROCKPOLISH]
+#Pulimento
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[SANDSTORM]
+#Tormenta Arena
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = ScrambleOrderNextTurn
+ContestFlags = 
+ContestDescription = Cambia el orden de las exhibiciones en el siguiente turno.
+#-------------------------------
+[STEALTHROCK]
+#Trampa Rocas
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[TARSHOT]
+#Alquitranazo
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = LowerSpiritOfOthersThatMoved
+ContestFlags = 
+ContestDescription = Baja el ánimo de quienes hicieron exhibiciones.
+#-------------------------------
+[WIDEGUARD]
+#Vasta Guardia
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[DOOMDESIRE]
+#Deseo Oculto
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[STEELBEAM]
+#Metaláser
+ContestType = TOUGH
+ContestHearts = 8
+ContestJam = 0
+ContestFunctionCode = NoMoreMoves
+ContestFlags = 
+ContestDescription = Tiene un gran atractivo, pero impide que el usuario realice más movimientos en el concurso.
+#-------------------------------
+[STEELROLLER]
+#Allanador Férreo
+ContestType = TOUGH
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[BEHEMOTHBASH]
+#Embate Supremo
+ContestType = TOUGH
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[BEHEMOTHBLADE]
+#Tajo Supremo
+ContestType = TOUGH
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[IRONTAIL]
+#Cola Férrea
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[SUNSTEELSTRIKE]
+#Meteoimpacto
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[METEORMASH]
+#Puño Meteoro
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[ANCHORSHOT]
+#Anclaje
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[FLASHCANNON]
+#Foco Resplandor
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[IRONHEAD]
+#Cabeza de Hierro
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[SMARTSTRIKE]
+#Cuerno Certero
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[STEELWING]
+#Ala de Acero
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[DOUBLEIRONBASH]
+#Ferropuño Doble
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenMatchesLastTurnMoveType
+ContestFlags = 
+ContestDescription = Funciona bien si es del mismo tipo que el movimiento utilizado por el último Pokémon.
+#-------------------------------
+[MIRRORSHOT]
+#Disparo Espejo
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[MAGNETBOMB]
+#Bomba Imán
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[GEARGRIND]
+#Rueda Doble
+ContestType = SMART
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[METALCLAW]
+#Garra Metal
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[BULLETPUNCH]
+#Puño Bala
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[GYROBALL]
+#Giro Bola
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DoesBetterLaterPerformed
+ContestFlags = 
+ContestDescription = La exhibición funciona mejor cuanto más tarde se realiza por turno.
+#-------------------------------
+[HEAVYSLAM]
+#Cuerpo Pesado
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[METALBURST]
+#Represión Metal
+ContestType = COOL
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[AUTOTOMIZE]
+#Aligerar
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[GEARUP]
+#Piñón Auxiliar
+ContestType = SMART
+ContestHearts = 0
+ContestJam = 0
+ContestFunctionCode = DoubleNextAppeal
+ContestFlags = 
+ContestDescription = El Pokémon gana el doble de la puntuación en su próxima exhibición.
+#-------------------------------
+[IRONDEFENSE]
+#Defensa Férrea
+ContestType = TOUGH
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[KINGSSHIELD]
+#Escudo Real
+ContestType = COOL
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartled
+ContestFlags = 
+ContestDescription = Puede evitar que los demás lo asusten hasta que finalice el turno.
+#-------------------------------
+[METALSOUND]
+#Eco Metálico
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[SHIFTGEAR]
+#Cambio de Marcha
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[HYDROCANNON]
+#Hidrocañón
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 4
+ContestFunctionCode = StartleOthersMissNextTurn
+ContestFlags = 
+ContestDescription = Asusta a todos los demás Pokémon. Pero puedes actuar en el siguiente turno.
+#-------------------------------
+[WATERSPOUT]
+#Salpicar
+ContestType = BEAUTY
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[HYDROPUMP]
+#Hidrobomba
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[ORIGINPULSE]
+#Pulso Primigenio
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[STEAMERUPTION]
+#Chorro de Vapor
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenLast
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza en último lugar.
+#-------------------------------
+[CRABHAMMER]
+#Martillazo
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DependsOnAppealInFront
+ContestFlags = 
+ContestDescription = Afectado por lo bien que fue el movimiento del Pokémon anterior.
+#-------------------------------
+[AQUATAIL]
+#Acua Cola
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[MUDDYWATER]
+#Agua Lodosa
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[SPARKLINGARIA]
+#Aria Burbuja
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 2
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[SURF]
+#Surf
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 2
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[FISHIOUSREND]
+#Branquibocado
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesGreatWhenFirst
+ContestFlags = 
+ContestDescription = La exhibición funciona muy bien si se realiza primero.
+#-------------------------------
+[LIQUIDATION]
+#Hidroariete
+ContestType = SMART
+ContestHearts = 2
+ContestJam = 3
+ContestFunctionCode = StartleOtherInFront
+ContestFlags = 
+ContestDescription = Asusta al último Pokémon en actuar antes que el usuario.
+#-------------------------------
+[DIVE]
+#Buceo
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[SCALD]
+#Escaldar
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = MakeAllOthersAfterUserNervous
+ContestFlags = 
+ContestDescription = Pone nerviosos a los Pokémon restantes.
+#-------------------------------
+[SNIPESHOT]
+#Disparo Certero
+ContestType = SMART
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnUsersSpirit
+ContestFlags = 
+ContestDescription = Funciona bien si el espíritu del Pokémon es bueno.
+#-------------------------------
+[WATERPLEDGE]
+#Voto Agua
+ContestType = BEAUTY
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AlwaysExcitesCrowd
+ContestFlags = 
+ContestDescription = Emociona al público en cualquier tipo de concurso.
+#-------------------------------
+[WATERFALL]
+#Cascada
+ContestType = TOUGH
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[RAZORSHELL]
+#Concha Filo
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = CanUseRepeatedly
+ContestFlags = 
+ContestDescription = Puede usarse repetidamente sin aburrir al juez.
+#-------------------------------
+[BRINE]
+#Salmuera
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DependsOnAppealInFront
+ContestFlags = 
+ContestDescription = Afectado por lo bien que fue el movimiento del Pokémon anterior.
+#-------------------------------
+[BUBBLEBEAM]
+#Rayo Burbuja
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 3
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[OCTAZOOKA]
+#Pulpocañón
+ContestType = TOUGH
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = DoesBetterIfIncreasesCrowdExcitement
+ContestFlags = 
+ContestDescription = Funciona mejor si el entusiasmo de la audiencia es alto.
+#-------------------------------
+[FLIPTURN]
+#Viraje
+ContestType = BEAUTY
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[WATERPULSE]
+#Hidropulso
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = StealsAttention
+ContestFlags = 
+ContestDescription = Hace que el juez espere poco de los demás concursantes.
+#-------------------------------
+[AQUAJET]
+#Acua Jet
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[BUBBLE]
+#Burbuja
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 2
+ContestFunctionCode = StartleOthersThatMoved
+ContestFlags = 
+ContestDescription = Asusta a quienes han hecho exhibiciones.
+#-------------------------------
+[WATERGUN]
+#Pistola Agua
+ContestType = CUTE
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = Basic
+ContestFlags = 
+ContestDescription = Un movimiento muy atractivo.
+#-------------------------------
+[CLAMP]
+#Tenaza
+ContestType = TOUGH
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[WHIRLPOOL]
+#Torbellino
+ContestType = BEAUTY
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = PauseCrowdExcitement
+ContestFlags = 
+ContestDescription = Evita temporalmente que la audiencia se emocione.
+#-------------------------------
+[SURGINGSTRIKES]
+#Azote Torrencial
+ContestType = TOUGH
+ContestHearts = 6
+ContestJam = 0
+ContestFunctionCode = EasilyStartled
+ContestFlags = 
+ContestDescription = Después de este movimiento, el Pokémon se asusta más fácilmente.
+#-------------------------------
+[WATERSHURIKEN]
+#Shuriken de Agua
+ContestType = COOL
+ContestHearts = 3
+ContestJam = 0
+ContestFunctionCode = DoNextMoveEarlier
+ContestFlags = 
+ContestDescription = Hace que el usuario se mueva antes en el siguiente turno.
+#-------------------------------
+[AQUARING]
+#Acua Aro
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[LIFEDEW]
+#Gota Vital
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = GetPumpedUp
+ContestFlags = 
+ContestDescription = Mejora el espíritu del Pokémon. Ayuda a prevenir el nerviosismo.
+#-------------------------------
+[RAINDANCE]
+#Danza Lluvia
+ContestType = BEAUTY
+ContestHearts = 1
+ContestJam = 0
+ContestFunctionCode = DependsOnCrowdExcitementHigher
+ContestFlags = 
+ContestDescription = Funciona mejor cuanto más emocionada esté la audiencia.
+#-------------------------------
+[SOAK]
+#Empapar
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 1
+ContestFunctionCode = StartleOtherWithJudgeAttention
+ContestFlags = 
+ContestDescription = Asusta al Pokémon que tiene la atención del juez.
+#-------------------------------
+[WATERSPORT]
+#Hidrochorro
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AlwaysExcitesCrowd
+ContestFlags = 
+ContestDescription = Emociona al público en cualquier tipo de concurso.
+#-------------------------------
+[WITHDRAW]
+#Refugio
+ContestType = CUTE
+ContestHearts = 2
+ContestJam = 0
+ContestFunctionCode = AvoidBeingStartledOnce
+ContestFlags = 
+ContestDescription = Puede evitar ser sorprendido por otros una vez.
+#-------------------------------
+[DIRECLAW]
+#Garra Nociva
+ContestType = COOL
+ContestHearts = 4
+ContestJam = 0
+ContestFunctionCode = AlwaysExcitesCrowd
+ContestFlags = 
+ContestDescription = Emociona al público en cualquier tipo de concurso.
+

@@ -1,0 +1,82 @@
+﻿# Consulta la documentación en la wiki para aprender cómo editar este archivo.
+#-------------------------------
+# Ciudad Chains (143) - Ciudad Chains (145)
+143,West,0,145,East,43
+# Ciudad Chains (144) - Ciudad Chains (143)
+144,East,0,143,West,0
+# Ciudad Chains (146) - Ciudad Chains (143)
+146,South,0,143,North,0
+# Ciudad Chains (144) - Ciudad Chains (145)
+144,North,0,145,South,0
+# Ciudad Chains (146) - Ciudad Chains (144)
+146,West,43,144,East,0
+# Ciudad Chains (146) - Ciudad Chains (145)
+146,West,0,145,East,0
+# Ruta 13 (252) - Ruta 10 (147)
+252,South,31,147,North,0
+# Ruta 10 (148) - Ruta 10 (147)
+148,East,0,147,West,0
+# Pueblo Talia (253) - Ruta 10 (147)
+253,West,34,147,East,0
+# Ruta 10 (148) - Ruta 13 (252)
+148,North,9,252,South,0
+#  Ciudad Plata (240) - Ciudad Plata (245)
+240,North,59,245,South,0
+# Ciudad Plata (241) -  Ciudad Plata (240)
+241,North,0,240,South,0
+# Ciudad Plata (243) -  Ciudad Plata (240)
+243,West,0,240,East,0
+# Ciudad Plata (242) -  Ciudad Plata (240)
+242,South,0,240,North,0
+# Ciudad Plata (244) -  Ciudad Plata (240)
+244,West,0,240,East,59
+# Ciudad Plata (247) -  Ciudad Plata (240)
+247,East,0,240,West,0
+# Ciudad Plata (246) -  Ciudad Plata (240)
+246,East,59,240,West,0
+# Ciudad Plata (248) -  Ciudad Plata (240)
+248,North,59,240,South,0
+# Ciudad Plata (241) - Ciudad Plata (245)
+241,East,0,245,West,118
+# Ciudad Plata (243) - Ciudad Plata (241)
+243,West,59,241,East,0
+# Ciudad Plata (244) - Ciudad Plata (241)
+244,West,0,241,East,0
+# Ciudad Plata (247) - Ciudad Plata (241)
+247,East,59,241,West,0
+# Ciudad Plata (246) - Ciudad Plata (241)
+246,East,118,241,West,0
+# Ciudad Plata (248) - Ciudad Plata (241)
+248,East,0,241,West,0
+# Ciudad Plata (242) - Ciudad Plata (245)
+242,East,0,245,West,0
+# Ciudad Plata (242) - Ciudad Plata (243)
+242,East,59,243,West,0
+# Ciudad Plata (244) - Ciudad Plata (242)
+244,West,0,242,East,118
+# Ciudad Plata (247) - Ciudad Plata (242)
+247,North,59,242,South,0
+# Ciudad Plata (246) - Ciudad Plata (242)
+246,East,0,242,West,0
+# Ciudad Plata (248) - Ciudad Plata (242)
+248,East,0,242,West,118
+# Ciudad Plata (243) - Ciudad Plata (245)
+243,North,0,245,South,0
+# Ciudad Plata (244) - Ciudad Plata (243)
+244,North,0,243,South,0
+# Ciudad Plata (246) - Ciudad Plata (243)
+246,South,118,243,North,0
+# Ciudad Plata (248) - Ciudad Plata (243)
+248,North,118,243,South,0
+# Ciudad Plata (247) - Ciudad Plata (244)
+247,South,118,244,North,0
+# Ciudad Plata (247) - Ciudad Plata (245)
+247,North,118,245,South,0
+# Ciudad Plata (246) - Ciudad Plata (247)
+246,South,0,247,North,0
+# Ciudad Plata (248) - Ciudad Plata (247)
+248,North,0,247,South,0
+# Pueblo Talia (253) - Ruta 13 (252)
+253,West,0,252,East,0
+# Ruta 13 (295) - Pueblo Talia (253)
+295,West,0,253,East,0
