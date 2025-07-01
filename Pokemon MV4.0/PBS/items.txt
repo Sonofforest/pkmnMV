@@ -4979,6 +4979,16 @@ Flags = Fling_90
 Move = ROCKCLIMB
 Description = Ataca con una gran embestida. Puede confundir al objetivo.
 #-------------------------------
+[TM101]
+Name = MT101
+NamePlural = MT101s
+Pocket = 4
+Price = 1500
+BPPrice = 8
+FieldUse = HM
+Move = SECRETPOWER
+Description = Ataque con poder secreto cuyos efectos secundarios varían según el entorno de combate.
+#-------------------------------
 [HM01]
 Name = MO01
 NamePlural = MO01s
